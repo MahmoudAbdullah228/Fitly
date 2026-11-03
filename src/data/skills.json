@@ -1,0 +1,232 @@
+{
+  "skills": [
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "category": "Frontend",
+      "aliases": ["js", "es6", "esnext", "ecmascript"]
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "category": "Frontend",
+      "aliases": ["ts"]
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "category": "Frontend",
+      "aliases": ["react.js", "reactjs", "react js"]
+    },
+    {
+      "id": "nextjs",
+      "name": "Next.js",
+      "category": "Frontend",
+      "aliases": ["next", "next js", "nextjs"]
+    },
+    {
+      "id": "vue",
+      "name": "Vue.js",
+      "category": "Frontend",
+      "aliases": ["vue", "vuejs", "vue 3"]
+    },
+    {
+      "id": "tailwind",
+      "name": "Tailwind CSS",
+      "category": "Frontend",
+      "aliases": ["tailwind", "tailwindcss"]
+    },
+    {
+      "id": "html-css",
+      "name": "HTML5 / CSS3",
+      "category": "Frontend",
+      "aliases": ["html", "css", "html5", "css3", "sass", "scss"]
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "category": "Backend",
+      "aliases": ["node", "nodejs", "node js"]
+    },
+    {
+      "id": "express",
+      "name": "Express.js",
+      "category": "Backend",
+      "aliases": ["express", "expressjs"]
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "category": "Backend",
+      "aliases": ["python 3", "py"]
+    },
+    {
+      "id": "django",
+      "name": "Django",
+      "category": "Backend",
+      "aliases": ["django rest framework", "drf"]
+    },
+    {
+      "id": "fastapi",
+      "name": "FastAPI",
+      "category": "Backend",
+      "aliases": ["fast-api", "fast api"]
+    },
+    {
+      "id": "golang",
+      "name": "Go (Golang)",
+      "category": "Backend",
+      "aliases": ["go", "golang"]
+    },
+    {
+      "id": "java",
+      "name": "Java",
+      "category": "Backend",
+      "aliases": ["spring boot", "spring", "java 17", "java 21"]
+    },
+    {
+      "id": "csharp",
+      "name": "C# / .NET",
+      "category": "Backend",
+      "aliases": [".net", "c#", ".net core", "asp.net", "dotnet"]
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "category": "Database",
+      "aliases": ["postgres", "pgsql", "postgresql"]
+    },
+    {
+      "id": "mysql",
+      "name": "MySQL",
+      "category": "Database",
+      "aliases": ["my-sql", "mariadb"]
+    },
+    {
+      "id": "mongodb",
+      "name": "MongoDB",
+      "category": "Database",
+      "aliases": ["mongo", "nosql"]
+    },
+    {
+      "id": "redis",
+      "name": "Redis",
+      "category": "Database",
+      "aliases": ["redis cache", "in-memory cache"]
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "category": "DevOps",
+      "aliases": ["containerization", "docker compose"]
+    },
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes",
+      "category": "DevOps",
+      "aliases": ["k8s", "k8s cluster"]
+    },
+    {
+      "id": "aws",
+      "name": "AWS",
+      "category": "Cloud",
+      "aliases": ["amazon web services", "s3", "ec2", "lambda"]
+    },
+    {
+      "id": "gcp",
+      "name": "Google Cloud Platform",
+      "category": "Cloud",
+      "aliases": ["gcp", "google cloud"]
+    },
+    {
+      "id": "git",
+      "name": "Git / GitHub",
+      "category": "Tools",
+      "aliases": ["git", "github", "gitlab", "version control"]
+    },
+    {
+      "id": "graphql",
+      "name": "GraphQL",
+      "category": "Backend",
+      "aliases": ["apollo", "graphql api"]
+    },
+    {
+      "id": "rest-api",
+      "name": "RESTful APIs",
+      "category": "Backend",
+      "aliases": ["rest", "rest api", "api design"]
+    },
+    {
+      "id": "flutter",
+      "name": "Flutter",
+      "category": "Mobile",
+      "aliases": ["dart", "flutter sdk"]
+    },
+    {
+      "id": "react-native",
+      "name": "React Native",
+      "category": "Mobile",
+      "aliases": ["rn", "expo"]
+    },
+    {
+      "id": "sql",
+      "name": "SQL",
+      "category": "Data",
+      "aliases": ["structured query language", "tsql", "sql queries"]
+    },
+    {
+      "id": "powerbi",
+      "name": "Power BI",
+      "category": "Data",
+      "aliases": ["power-bi", "powerbi", "dax", "microsoft power bi"]
+    },
+    {
+      "id": "tableau",
+      "name": "Tableau",
+      "category": "Data",
+      "aliases": ["tableau desktop", "tableau server"]
+    },
+    {
+      "id": "pandas",
+      "name": "Pandas / NumPy",
+      "category": "Data",
+      "aliases": ["pandas", "numpy", "scipy"]
+    },
+    {
+      "id": "seo",
+      "name": "SEO & SEM",
+      "category": "Marketing",
+      "aliases": ["seo", "sem", "search engine optimization", "google ads"]
+    },
+    {
+      "id": "content-marketing",
+      "name": "Content Strategy",
+      "category": "Marketing",
+      "aliases": ["copywriting", "content writing", "social media strategy"]
+    },
+    {
+      "id": "google-analytics",
+      "name": "Google Analytics 4",
+      "category": "Marketing",
+      "aliases": ["ga4", "google analytics", "gtm", "google tag manager"]
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "category": "Design",
+      "aliases": ["ui design", "ux design", "wireframing", "prototyping"]
+    },
+    {
+      "id": "agile",
+      "name": "Agile / Scrum",
+      "category": "Management",
+      "aliases": ["scrum", "kanban", "jira", "sprint planning"]
+    },
+    {
+      "id": "qa-testing",
+      "name": "Automated Testing",
+      "category": "QA",
+      "aliases": ["selenium", "cypress", "playwright", "jest", "unit testing"]
+    }
+  ]
+}

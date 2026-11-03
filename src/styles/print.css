@@ -1,0 +1,92 @@
+/* Print-optimized stylesheet for ATS-Friendly CV Export */
+@media print {
+  /* Hide non-printable app shell elements */
+  header,
+  footer,
+  nav,
+  button,
+  .no-print,
+  [role="dialog"] > div:first-child /* backdrop */ {
+    display: none !important;
+  }
+
+  /* Reset document root for physical paper printing */
+  html, body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+    line-height: 1.4 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+  }
+
+  /* Expand modal dialog and printable container to full page */
+  [role="dialog"] {
+    position: static !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: transparent !important;
+  }
+
+  [role="dialog"] > div:last-child {
+    max-width: 100% !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: visible !important;
+  }
+
+  #printable-cv {
+    max-height: none !important;
+    overflow: visible !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    color: #000000 !important;
+    background: #ffffff !important;
+  }
+
+  #printable-cv h1 {
+    font-size: 20pt !important;
+    margin-bottom: 4pt !important;
+    color: #000000 !important;
+  }
+
+  #printable-cv h2 {
+    font-size: 11pt !important;
+    border-bottom: 1.5pt solid #000000 !important;
+    margin-top: 12pt !important;
+    margin-bottom: 6pt !important;
+    color: #000000 !important;
+  }
+
+  #printable-cv p,
+  #printable-cv li {
+    font-size: 10pt !important;
+    color: #111111 !important;
+  }
+
+  #printable-cv textarea {
+    border: none !important;
+    padding: 0 !important;
+    resize: none !important;
+    font-family: inherit !important;
+    font-size: 10pt !important;
+    color: #111111 !important;
+    background: transparent !important;
+  }
+
+  /* Avoid page breaks inside job experience items */
+  #printable-cv .space-y-4 > div {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  @page {
+    margin: 1.5cm;
+    size: A4 portrait;
+  }
+}

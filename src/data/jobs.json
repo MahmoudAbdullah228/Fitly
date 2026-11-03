@@ -1,0 +1,1353 @@
+[
+  {
+    "id": "job-01",
+    "title": "Junior Frontend Developer (React & TypeScript)",
+    "company": "NilePay Solutions",
+    "companyId": "nilepay",
+    "location": "Cairo (Smart Village)",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Junior",
+    "salaryRange": "20,000 - 28,000 EGP / month",
+    "postedDaysAgo": 2,
+    "source": "Wuzzuf",
+    "applicantsCount": 42,
+    "yearsExperienceMin": 1,
+    "educationRequirement": "B.Sc. in Computer Science, Software Engineering, or related discipline",
+    "description": "NilePay is seeking an energetic Junior Frontend Developer to join our Merchant Portal squad. You will craft accessible, high-performance web dashboards that empower thousands of Egyptian online merchants to track settlements, dispute chargebacks, and manage digital store checkouts.",
+    "responsibilities": [
+      "Develop responsive client-facing interfaces using React, TypeScript, and Tailwind CSS.",
+      "Integrate RESTful merchant APIs and optimize complex table rendering for high-volume transactions.",
+      "Work closely with product designers to implement clean UI components according to our design system.",
+      "Write unit and integration tests to ensure cross-browser compatibility and zero regressions."
+    ],
+    "requiredSkills": ["React", "JavaScript", "TypeScript", "Tailwind CSS", "HTML5 / CSS3", "Git / GitHub"],
+    "niceToHaveSkills": ["Next.js", "RESTful APIs", "Automated Testing"],
+    "benefits": [
+      "Competitive salary in EGP with annual inflation adjustment",
+      "Private medical insurance covering top hospital networks in Cairo & Giza",
+      "Flexible hybrid schedule (2 days on-site in Smart Village, 3 days remote)",
+      "Dedicated 8,000 EGP annual learning & development stipend"
+    ]
+  },
+  {
+    "id": "job-02",
+    "title": "React Frontend Engineer",
+    "company": "CairoFin Technologies",
+    "companyId": "cairofin",
+    "location": "New Cairo (5th Settlement)",
+    "workMode": "On-site",
+    "employmentType": "Full-time",
+    "seniority": "Junior",
+    "salaryRange": "22,000 - 30,000 EGP / month",
+    "postedDaysAgo": 4,
+    "source": "LinkedIn",
+    "applicantsCount": 68,
+    "yearsExperienceMin": 1,
+    "educationRequirement": "Bachelor's Degree in Computer Science or relevant field",
+    "description": "CairoFin is expanding its consumer loan checkout team. We are looking for a passionate React engineer who excels at building snappy, bulletproof mobile-first web applications.",
+    "responsibilities": [
+      "Build consumer credit application flows with instant feedback and robust validation.",
+      "Collaborate with backend engineers to consume microservice APIs securely.",
+      "Optimize bundle size and Core Web Vitals for mobile users across Egypt.",
+      "Participate in daily standups, code reviews, and sprint planning sessions."
+    ],
+    "requiredSkills": ["React", "JavaScript", "HTML5 / CSS3", "Tailwind CSS", "RESTful APIs", "Git / GitHub"],
+    "niceToHaveSkills": ["TypeScript", "Next.js"],
+    "benefits": [
+      "Transportation allowance or company shuttle bus from Cairo & Giza hubs",
+      "Quarterly performance incentives",
+      "Comprehensive social and medical coverage"
+    ]
+  },
+  {
+    "id": "job-03",
+    "title": "Frontend Web Developer (Next.js & UI/UX)",
+    "company": "RedSea Media Group",
+    "companyId": "redsea-media",
+    "location": "Cairo (Zamalek)",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Junior",
+    "salaryRange": "19,000 - 26,000 EGP / month",
+    "postedDaysAgo": 1,
+    "source": "Forasna",
+    "applicantsCount": 29,
+    "yearsExperienceMin": 1,
+    "educationRequirement": "Degree in Computer Science, Multimedia, or equivalent experience",
+    "description": "Join RedSea Media's growth engineering pod building high-converting landing pages, interactive client showcases, and editorial portals for leading MENA consumer brands.",
+    "responsibilities": [
+      "Translate Figma prototypes into pixel-perfect, accessible Next.js and Tailwind CSS pages.",
+      "Implement A/B test variations to maximize lead generation and conversion velocity.",
+      "Collaborate with SEO specialists to ensure dynamic metadata and rapid load times.",
+      "Maintain clean component documentation and reusable UI patterns."
+    ],
+    "requiredSkills": ["React", "Next.js", "JavaScript", "Tailwind CSS", "HTML5 / CSS3", "Figma"],
+    "niceToHaveSkills": ["TypeScript", "SEO & SEM"],
+    "benefits": [
+      "Creative studio environment overlooking the Nile in Zamalek",
+      "MacBook Pro provided upon hire",
+      "Semi-annual team retreats in the Red Sea"
+    ]
+  },
+  {
+    "id": "job-04",
+    "title": "Mid-Level Backend Engineer (Node.js & Postgres)",
+    "company": "CairoFin Technologies",
+    "companyId": "cairofin",
+    "location": "New Cairo (5th Settlement)",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Level",
+    "salaryRange": "45,000 - 62,000 EGP / month",
+    "postedDaysAgo": 3,
+    "source": "LinkedIn",
+    "applicantsCount": 38,
+    "yearsExperienceMin": 3,
+    "educationRequirement": "B.Sc. in Computer Engineering or Computer Science",
+    "description": "Are you passionate about high-throughput transactional systems? CairoFin is hiring a Mid-Level Backend Engineer to build core ledger services, credit line limit management, and merchant settlement systems.",
+    "responsibilities": [
+      "Design and maintain mission-critical Node.js / Express microservices.",
+      "Write efficient relational schemas, migrations, and complex queries in PostgreSQL.",
+      "Implement Redis caching and background worker job queues for idempotent payment processing.",
+      "Containerize services with Docker and participate in on-call reliability rotations."
+    ],
+    "requiredSkills": ["Node.js", "Express.js", "PostgreSQL", "Redis", "Docker", "RESTful APIs", "Git / GitHub"],
+    "niceToHaveSkills": ["TypeScript", "AWS", "Agile / Scrum"],
+    "benefits": [
+      "Top-tier compensation package benchmarked against international standards",
+      "Family medical insurance including dental and optical",
+      "Annual gym membership stipend",
+      "Hybrid flexibility (2 days office, 3 days remote)"
+    ]
+  },
+  {
+    "id": "job-05",
+    "title": "Backend Software Engineer (Node.js / Cloud APIs)",
+    "company": "Kemet Logistics",
+    "companyId": "kemet-logistics",
+    "location": "6th of October City",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Level",
+    "salaryRange": "40,000 - 55,000 EGP / month",
+    "postedDaysAgo": 6,
+    "source": "Wuzzuf",
+    "applicantsCount": 24,
+    "yearsExperienceMin": 2,
+    "educationRequirement": "Bachelor's degree in engineering or related technical field",
+    "description": "Kemet Logistics connects fulfillment hubs across Egypt with real-time routing algorithms. We need a backend engineer to architect vehicle telemetry APIs and automated warehouse sorting workflows.",
+    "responsibilities": [
+      "Build scalable RESTful and event-driven APIs handling driver telemetry and parcel manifests.",
+      "Optimize relational database operations in PostgreSQL and maintain data consistency.",
+      "Coordinate with mobile engineers building driver applications in Flutter and React Native.",
+      "Deploy and monitor containerized services using Docker and cloud logging."
+    ],
+    "requiredSkills": ["Node.js", "Express.js", "PostgreSQL", "RESTful APIs", "Docker", "Git / GitHub"],
+    "niceToHaveSkills": ["Redis", "AWS", "TypeScript"],
+    "benefits": [
+      "Company transportation from central Giza/Cairo meeting points",
+      "Comprehensive medical plan",
+      "Performance bonus scheme paid every 6 months"
+    ]
+  },
+  {
+    "id": "job-06",
+    "title": "Senior Backend Architect (Distributed Systems & Go/Node)",
+    "company": "Pyramids Cloud Systems",
+    "companyId": "pyramids-cloud",
+    "location": "New Cairo (Banking Sector)",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Senior",
+    "salaryRange": "75,000 - 105,000 EGP / month",
+    "postedDaysAgo": 5,
+    "source": "LinkedIn",
+    "applicantsCount": 17,
+    "yearsExperienceMin": 5,
+    "educationRequirement": "B.Sc. or M.Sc. in Computer Science or Software Engineering",
+    "description": "Lead the architectural evolution of sovereign cloud platforms for enterprise banking and government clients in Egypt.",
+    "responsibilities": [
+      "Architect multi-tenant backend services in Go and Node.js with strict zero-trust security.",
+      "Lead performance tuning across distributed PostgreSQL and Redis clusters.",
+      "Establish engineering standards, CI/CD blueprints, and mentor junior and mid-level engineers."
+    ],
+    "requiredSkills": ["Node.js", "Go (Golang)", "PostgreSQL", "Docker", "Kubernetes", "AWS", "Git / GitHub"],
+    "niceToHaveSkills": ["Redis", "RESTful APIs", "Agile / Scrum"],
+    "benefits": [
+      "Stock option grants",
+      "Executive health coverage for employee and dependents",
+      "Annual technology refresh allowance"
+    ]
+  },
+  {
+    "id": "job-07",
+    "title": "Senior Growth & Performance Marketing Manager",
+    "company": "RedSea Media Group",
+    "companyId": "redsea-media",
+    "location": "Cairo (Zamalek)",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Senior",
+    "salaryRange": "50,000 - 70,000 EGP / month",
+    "postedDaysAgo": 3,
+    "source": "LinkedIn",
+    "applicantsCount": 31,
+    "yearsExperienceMin": 4,
+    "educationRequirement": "Bachelor's degree in Marketing, Business, or Communications",
+    "description": "Own multi-million pound digital advertising budgets across Google Ads, Meta, TikTok, and programmatic networks for Egypt's most prominent fintech and e-commerce scale-ups.",
+    "responsibilities": [
+      "Formulate and execute full-funnel digital acquisition and retention strategies.",
+      "Direct technical SEO, content marketing, and landing page conversion rate optimization (CRO).",
+      "Deeply analyze web and app traffic using Google Analytics 4, AppsFlyer, and SQL queries.",
+      "Lead and mentor a squad of 4 performance marketers and content writers."
+    ],
+    "requiredSkills": ["SEO & SEM", "Google Analytics 4", "Content Strategy", "SQL", "Agile / Scrum"],
+    "niceToHaveSkills": ["Figma", "HTML5 / CSS3"],
+    "benefits": [
+      "Direct profit share on portfolio account growth",
+      "Flexible hybrid hours with modern Zamalek headquarters",
+      "Comprehensive medical insurance"
+    ]
+  },
+  {
+    "id": "job-08",
+    "title": "Digital Marketing & SEO Specialist",
+    "company": "Delta Retail Express",
+    "companyId": "delta-retail",
+    "location": "Mansoura & Cairo Hub",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Level",
+    "salaryRange": "30,000 - 42,000 EGP / month",
+    "postedDaysAgo": 2,
+    "source": "Wuzzuf",
+    "applicantsCount": 44,
+    "yearsExperienceMin": 2,
+    "educationRequirement": "University degree in Marketing, Business, or related",
+    "description": "Drive customer discovery and online grocery order frequency for Delta Retail Express across Lower Egypt and Greater Cairo.",
+    "responsibilities": [
+      "Manage Google Search, Display, and Local Store campaigns to maximize branch footfall and app orders.",
+      "Execute organic SEO audits, keyword research, and on-page metadata optimization.",
+      "Monitor campaign ROAS, CPA, and customer lifetime value via Google Analytics 4.",
+      "Create engaging social media copy and promotional SMS/WhatsApp campaign calendars."
+    ],
+    "requiredSkills": ["SEO & SEM", "Google Analytics 4", "Content Strategy"],
+    "niceToHaveSkills": ["Figma", "SQL", "Agile / Scrum"],
+    "benefits": [
+      "Store discount voucher of 1,500 EGP / month",
+      "Medical insurance covering employee and spouse",
+      "Transport allowance between Mansoura and Cairo offices"
+    ]
+  },
+  {
+    "id": "job-09",
+    "title": "Data Analyst & Business Intelligence Specialist",
+    "company": "Alexandria Data Labs",
+    "companyId": "alex-data-labs",
+    "location": "Alexandria (San Stefano)",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Level",
+    "salaryRange": "32,000 - 45,000 EGP / month",
+    "postedDaysAgo": 3,
+    "source": "LinkedIn",
+    "applicantsCount": 27,
+    "yearsExperienceMin": 2,
+    "educationRequirement": "B.Sc. in Statistics, Economics, Computer Science, or Engineering",
+    "description": "Work with international maritime and logistics clients in Alexandria to uncover operational bottlenecks, forecast vessel turnaround times, and build automated reporting suites.",
+    "responsibilities": [
+      "Write advanced SQL queries to extract, transform, and aggregate data from relational data warehouses.",
+      "Design and deploy enterprise Power BI and Tableau dashboards with custom DAX calculations.",
+      "Utilize Python (Pandas/NumPy) for exploratory data analysis, data cleansing, and cohort modeling.",
+      "Present actionable business recommendations directly to C-suite and port operations directors."
+    ],
+    "requiredSkills": ["SQL", "Python", "Pandas / NumPy", "Power BI", "Tableau", "PostgreSQL", "Git / GitHub"],
+    "niceToHaveSkills": ["Docker", "Agile / Scrum"],
+    "benefits": [
+      "Prestigious office location overlooking San Stefano waterfront",
+      "Comprehensive medical insurance plan",
+      "Annual training budget for Microsoft and cloud certifications"
+    ]
+  },
+  {
+    "id": "job-10",
+    "title": "Business Intelligence & Reporting Analyst",
+    "company": "Delta Retail Express",
+    "companyId": "delta-retail",
+    "location": "Mansoura & Cairo Hub",
+    "workMode": "On-site",
+    "employmentType": "Full-time",
+    "seniority": "Junior",
+    "salaryRange": "22,000 - 30,000 EGP / month",
+    "postedDaysAgo": 5,
+    "source": "Forasna",
+    "applicantsCount": 51,
+    "yearsExperienceMin": 1,
+    "educationRequirement": "Degree in Commerce, Business Analytics, or Computer Science",
+    "description": "Support our retail merchandisers and regional store directors with timely sales reports, margin tracking, and inventory velocity dashboards.",
+    "responsibilities": [
+      "Build and automate daily sales and wastage reports using SQL and Power BI.",
+      "Cleanse inventory transactional data and reconcile anomalies across 30+ regional retail branches.",
+      "Assist in seasonal sales forecasting and pricing sensitivity analyses using Python.",
+      "Train department heads on self-serve dashboard navigation."
+    ],
+    "requiredSkills": ["SQL", "Power BI", "Python", "Pandas / NumPy"],
+    "niceToHaveSkills": ["PostgreSQL", "Tableau"],
+    "benefits": [
+      "Annual profit-sharing scheme",
+      "Health insurance",
+      "Meal and transport stipends"
+    ]
+  },
+  {
+    "id": "job-11",
+    "title": "Full-Stack JavaScript Developer (React & Node.js)",
+    "company": "Khedive Health",
+    "companyId": "khedive-health",
+    "location": "Giza (Mohandessin)",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Level",
+    "salaryRange": "40,000 - 58,000 EGP / month",
+    "postedDaysAgo": 4,
+    "source": "Wuzzuf",
+    "applicantsCount": 39,
+    "yearsExperienceMin": 2,
+    "educationRequirement": "B.Sc. in Computer Science or related degree",
+    "description": "Khedive Health is connecting Egyptian clinical specialists with patients nationwide. We need a versatile Full-Stack Developer to work across our React doctor portal and Node.js appointment scheduler.",
+    "responsibilities": [
+      "Build patient record views and appointment booking calendars with React and Tailwind CSS.",
+      "Develop secure Node.js REST APIs adhering to Egyptian health data privacy guidelines.",
+      "Maintain PostgreSQL database schemas and Redis session caches.",
+      "Participate in sprint retrospectives and maintain test coverage."
+    ],
+    "requiredSkills": ["React", "JavaScript", "Node.js", "Express.js", "PostgreSQL", "Tailwind CSS", "Git / GitHub"],
+    "niceToHaveSkills": ["TypeScript", "Docker", "Redis"],
+    "benefits": [
+      "Health coverage with premium clinic access",
+      "Flexible working hours",
+      "Dedicated tech stipend"
+    ]
+  },
+  {
+    "id": "job-12",
+    "title": "Flutter Mobile Developer",
+    "company": "NileCommerce Hub",
+    "companyId": "nilecommerce",
+    "location": "New Cairo",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Level",
+    "salaryRange": "38,000 - 52,000 EGP / month",
+    "postedDaysAgo": 7,
+    "source": "Bayt",
+    "applicantsCount": 33,
+    "yearsExperienceMin": 2,
+    "educationRequirement": "Degree in Software Engineering or Computer Science",
+    "description": "Develop our merchant wholesale order app used daily by 40,000+ local FMCG retail kiosks across Egypt.",
+    "responsibilities": [
+      "Build offline-first cross-platform mobile apps using Flutter and Dart.",
+      "Integrate thermal receipt printing and bluetooth barcode scanners.",
+      "Optimize state management with Bloc or Riverpod for smooth UI rendering."
+    ],
+    "requiredSkills": ["Flutter", "RESTful APIs", "Git / GitHub"],
+    "niceToHaveSkills": ["JavaScript", "React Native", "Docker"],
+    "benefits": [
+      "New Cairo office with recreational room",
+      "Medical & life insurance",
+      "Quarterly performance awards"
+    ]
+  },
+  {
+    "id": "job-13",
+    "title": "DevOps & Cloud Infrastructure Engineer",
+    "company": "Pyramids Cloud Systems",
+    "companyId": "pyramids-cloud",
+    "location": "New Cairo (Banking Sector)",
+    "workMode": "Remote",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Level",
+    "salaryRange": "55,000 - 75,000 EGP / month",
+    "postedDaysAgo": 8,
+    "source": "LinkedIn",
+    "applicantsCount": 21,
+    "yearsExperienceMin": 3,
+    "educationRequirement": "B.Sc. in Computer Engineering or related technical field",
+    "description": "Design, deploy, and maintain robust Kubernetes clusters, Terraform infrastructure-as-code, and secure cloud pipelines for MENA enterprise clients.",
+    "responsibilities": [
+      "Manage cloud resources on AWS and local Egyptian private cloud data centers.",
+      "Build GitHub Actions CI/CD workflows for automated testing and zero-downtime rollouts.",
+      "Monitor system health with Prometheus, Grafana, and ELK stack.",
+      "Enforce compliance and automated vulnerability scanning across container images."
+    ],
+    "requiredSkills": ["Docker", "Kubernetes", "AWS", "Git / GitHub"],
+    "niceToHaveSkills": ["Python", "Go (Golang)", "PostgreSQL"],
+    "benefits": [
+      "100% remote work flexibility within Egypt",
+      "Home office setup budget (20,000 EGP one-off)",
+      "High-speed internet subsidy"
+    ]
+  },
+  {
+    "id": "job-14",
+    "title": "Quality Assurance Automation Engineer",
+    "company": "NilePay Solutions",
+    "companyId": "nilepay",
+    "location": "Cairo (Smart Village)",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Level",
+    "salaryRange": "35,000 - 48,000 EGP / month",
+    "postedDaysAgo": 5,
+    "source": "Indeed",
+    "applicantsCount": 36,
+    "yearsExperienceMin": 2,
+    "educationRequirement": "B.Sc. in Computer Science or Computer Engineering",
+    "description": "Help ensure 100% reliability of financial transactions across NilePay's payment gateway and merchant APIs.",
+    "responsibilities": [
+      "Develop automated end-to-end regression suites using Cypress and Playwright.",
+      "Automate REST API testing and load verification with Postman and k6.",
+      "Integrate automated test runs into daily CI/CD delivery pipelines.",
+      "Collaborate with developers to reproduce and diagnose defect root causes."
+    ],
+    "requiredSkills": ["Automated Testing", "JavaScript", "RESTful APIs", "Git / GitHub"],
+    "niceToHaveSkills": ["Python", "Docker", "Agile / Scrum"],
+    "benefits": [
+      "Medical and social insurance",
+      "Smart Village shuttle buses",
+      "Annual bonus based on reliability metrics"
+    ]
+  },
+  {
+    "id": "job-15",
+    "title": "UI/UX Product Designer",
+    "company": "Khedive Health",
+    "companyId": "khedive-health",
+    "location": "Giza (Mohandessin)",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Level",
+    "salaryRange": "35,000 - 50,000 EGP / month",
+    "postedDaysAgo": 3,
+    "source": "LinkedIn",
+    "applicantsCount": 58,
+    "yearsExperienceMin": 2,
+    "educationRequirement": "Bachelor's degree in Design, Human-Computer Interaction, or related",
+    "description": "Design empathetic, clear, and frictionless medical consultation interfaces for patients and clinicians across Egypt.",
+    "responsibilities": [
+      "Conduct user research and usability testing with Egyptian doctors and patients.",
+      "Design wireframes, high-fidelity prototypes, and design tokens in Figma.",
+      "Partner with frontend engineers to ensure design fidelity and responsive execution.",
+      "Maintain and evolve the Khedive Health unified design system."
+    ],
+    "requiredSkills": ["Figma", "HTML5 / CSS3"],
+    "niceToHaveSkills": ["Tailwind CSS", "Agile / Scrum"],
+    "benefits": [
+      "Ergonomic workstation and Figma Enterprise license",
+      "Private health care",
+      "Flexible schedule"
+    ]
+  },
+  {
+    "id": "job-16",
+    "title": "Technical Product Manager (Fintech & Payments)",
+    "company": "NilePay Solutions",
+    "companyId": "nilepay",
+    "location": "Cairo (Smart Village)",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Lead",
+    "salaryRange": "65,000 - 90,000 EGP / month",
+    "postedDaysAgo": 9,
+    "source": "LinkedIn",
+    "applicantsCount": 26,
+    "yearsExperienceMin": 4,
+    "educationRequirement": "Engineering, Business, or Computer Science degree",
+    "description": "Own the product roadmap for merchant payment settlement, instantaneous transfers, and automated reconciliation across Egyptian commercial banks.",
+    "responsibilities": [
+      "Define product requirements (PRDs), user stories, and acceptance criteria.",
+      "Collaborate daily with engineering squads, compliance officers, and commercial leads.",
+      "Track product performance with SQL queries, conversion funnels, and NPS feedback.",
+      "Lead sprint grooming, backlog prioritization, and quarterly release roadmaps."
+    ],
+    "requiredSkills": ["Agile / Scrum", "RESTful APIs", "SQL"],
+    "niceToHaveSkills": ["Google Analytics 4", "Figma"],
+    "benefits": [
+      "Competitive executive salary",
+      "Comprehensive family health insurance",
+      "Performance-linked annual bonus"
+    ]
+  },
+  {
+    "id": "job-17",
+    "title": "Machine Learning Engineer (NLP & Arabic Models)",
+    "company": "Sinai Artificial Intelligence",
+    "companyId": "sinai-ai",
+    "location": "Cairo (Maadi Technology Park)",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Level",
+    "salaryRange": "50,000 - 72,000 EGP / month",
+    "postedDaysAgo": 2,
+    "source": "LinkedIn",
+    "applicantsCount": 22,
+    "yearsExperienceMin": 2,
+    "educationRequirement": "M.Sc. or B.Sc. in AI, Computer Science, or Data Science",
+    "description": "Build state-of-the-art Arabic natural language processing and document parsing models serving enterprise clients in Egypt and the Gulf.",
+    "responsibilities": [
+      "Fine-tune open-source LLMs and transformer models on Arabic dialect datasets.",
+      "Deploy scalable inference pipelines using Python, FastAPI, and Docker.",
+      "Optimize model quantization for low-latency production serving.",
+      "Collaborate with data engineers to curate and clean training corpora."
+    ],
+    "requiredSkills": ["Python", "Pandas / NumPy", "FastAPI", "Docker", "Git / GitHub"],
+    "niceToHaveSkills": ["PostgreSQL", "AWS", "Kubernetes"],
+    "benefits": [
+      "Access to high-end GPU compute clusters",
+      "Conference attendance sponsorship",
+      "Private medical insurance"
+    ]
+  },
+  {
+    "id": "job-18",
+    "title": "Senior Corporate Financial Analyst",
+    "company": "Citadel Corporate Advisory",
+    "companyId": "cairofin",
+    "location": "New Cairo",
+    "workMode": "On-site",
+    "employmentType": "Full-time",
+    "seniority": "Senior",
+    "salaryRange": "45,000 - 65,000 EGP / month",
+    "postedDaysAgo": 11,
+    "source": "Bayt",
+    "applicantsCount": 19,
+    "yearsExperienceMin": 4,
+    "educationRequirement": "B.Sc. in Finance, Accounting, or CFA Charterholder",
+    "description": "Deliver financial modeling, cash flow sensitivity forecasts, and debt restructuring analyses for mid-market Egyptian corporations.",
+    "responsibilities": [
+      "Construct detailed 3-statement financial models and discounted cash flow (DCF) valuations.",
+      "Analyze monthly budget variances and present findings to corporate boards.",
+      "Prepare investment memorandums and bank credit facility proposals."
+    ],
+    "requiredSkills": ["SQL"],
+    "niceToHaveSkills": ["Power BI", "Python"],
+    "benefits": [
+      "Annual performance bonus up to 4 months base salary",
+      "Comprehensive medical package",
+      "CFA exam sponsorship"
+    ]
+  },
+  {
+    "id": "job-19",
+    "title": "B2B Sales & Merchant Acquisition Specialist",
+    "company": "NileCommerce Hub",
+    "companyId": "nilecommerce",
+    "location": "Giza & Cairo",
+    "workMode": "On-site",
+    "employmentType": "Full-time",
+    "seniority": "Junior",
+    "salaryRange": "16,000 - 24,000 EGP + Commission",
+    "postedDaysAgo": 4,
+    "source": "Forasna",
+    "applicantsCount": 85,
+    "yearsExperienceMin": 1,
+    "educationRequirement": "Bachelor's Degree in Business, Commerce, or relevant",
+    "description": "Onboard FMCG distributors and regional wholesalers onto NileCommerce's digital marketplace across Cairo and Giza governorates.",
+    "responsibilities": [
+      "Prospect, pitch, and sign new commercial wholesale merchants.",
+      "Conduct in-person demos of the merchant ordering tablet application.",
+      "Meet weekly merchant acquisition targets and maintain CRM pipeline hygiene."
+    ],
+    "requiredSkills": ["Agile / Scrum"],
+    "niceToHaveSkills": [],
+    "benefits": [
+      "Uncapped sales commission paid monthly",
+      "Fuel and car allowance",
+      "Medical insurance"
+    ]
+  },
+  {
+    "id": "job-20",
+    "title": "People Operations & HR Specialist",
+    "company": "Kemet Logistics",
+    "companyId": "kemet-logistics",
+    "location": "6th of October City",
+    "workMode": "On-site",
+    "employmentType": "Full-time",
+    "seniority": "Junior",
+    "salaryRange": "18,000 - 25,000 EGP / month",
+    "postedDaysAgo": 6,
+    "source": "Wuzzuf",
+    "applicantsCount": 62,
+    "yearsExperienceMin": 1,
+    "educationRequirement": "Bachelor's degree in Human Resources, Business, or Psychology",
+    "description": "Support employee lifecycle operations, local payroll coordination, and social insurance paperwork for 350+ warehouse staff and delivery drivers.",
+    "responsibilities": [
+      "Manage Egyptian labor law documentation, Form 1 and Form 6 filings.",
+      "Facilitate monthly payroll data entry and attendance tracking.",
+      "Coordinate candidate interview schedules and organize company culture initiatives."
+    ],
+    "requiredSkills": [],
+    "niceToHaveSkills": ["Agile / Scrum"],
+    "benefits": [
+      "Full social and medical insurance coverage",
+      "Company transportation from Giza",
+      "Professional development opportunities"
+    ]
+  },
+  {
+    "id": "job-21",
+    "title": "Frontend Engineer (React & Modern UI)",
+    "company": "Khedive Health",
+    "companyId": "khedive-health",
+    "location": "Giza (Mohandessin)",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Junior",
+    "salaryRange": "22,000 - 32,000 EGP / month",
+    "postedDaysAgo": 1,
+    "source": "LinkedIn",
+    "applicantsCount": 35,
+    "yearsExperienceMin": 1,
+    "educationRequirement": "Degree in Computer Science or Engineering",
+    "description": "Build high-speed patient consultation interfaces and interactive telemedicine scheduling web applications.",
+    "responsibilities": [
+      "Develop responsive UI components in React and Tailwind CSS.",
+      "Connect WebSockets and REST APIs for real-time doctor-patient messaging.",
+      "Optimize load times for varying mobile internet connections across Egypt."
+    ],
+    "requiredSkills": ["React", "JavaScript", "Tailwind CSS", "HTML5 / CSS3", "Git / GitHub"],
+    "niceToHaveSkills": ["TypeScript", "Next.js", "RESTful APIs"],
+    "benefits": [
+      "Private medical plan",
+      "Flexible hybrid model",
+      "Learning budget"
+    ]
+  },
+  {
+    "id": "job-22",
+    "title": "Backend API Developer (Python & FastAPI)",
+    "company": "Sinai Artificial Intelligence",
+    "companyId": "sinai-ai",
+    "location": "Cairo (Maadi)",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Level",
+    "salaryRange": "42,000 - 60,000 EGP / month",
+    "postedDaysAgo": 3,
+    "source": "Wuzzuf",
+    "applicantsCount": 29,
+    "yearsExperienceMin": 2,
+    "educationRequirement": "Computer Science or Engineering degree",
+    "description": "Develop high-throughput asynchronous REST APIs connecting our AI inference engine to enterprise client backends.",
+    "responsibilities": [
+      "Build robust microservices using Python, FastAPI, and PostgreSQL.",
+      "Deploy containerized microservices on Docker and manage asynchronous tasks with Redis.",
+      "Write thorough documentation and maintain API test coverage."
+    ],
+    "requiredSkills": ["Python", "FastAPI", "PostgreSQL", "Docker", "RESTful APIs", "Git / GitHub"],
+    "niceToHaveSkills": ["Redis", "AWS"],
+    "benefits": [
+      "Competitive EGP salary",
+      "Maadi office with relaxed atmosphere",
+      "Medical insurance"
+    ]
+  },
+  {
+    "id": "job-23",
+    "title": "Content & Social Media Strategist",
+    "company": "RedSea Media Group",
+    "companyId": "redsea-media",
+    "location": "Cairo (Zamalek)",
+    "workMode": "On-site",
+    "employmentType": "Full-time",
+    "seniority": "Junior",
+    "salaryRange": "16,000 - 24,000 EGP / month",
+    "postedDaysAgo": 4,
+    "source": "Forasna",
+    "applicantsCount": 73,
+    "yearsExperienceMin": 1,
+    "educationRequirement": "Degree in Mass Communications, Journalism, or Arts",
+    "description": "Create viral social video concepts, engaging Arabic copy, and thought leadership campaigns for Egypt's leading consumer tech brands.",
+    "responsibilities": [
+      "Script short-form TikTok and Instagram Reels for client campaigns.",
+      "Write catchy social captions, email newsletters, and blog posts.",
+      "Analyze audience engagement metrics using native platform analytics."
+    ],
+    "requiredSkills": ["Content Strategy"],
+    "niceToHaveSkills": ["SEO & SEM", "Figma", "Google Analytics 4"],
+    "benefits": [
+      "Nile-view studio in Zamalek",
+      "Health insurance",
+      "Hands-on mentorship from veteran creative directors"
+    ]
+  },
+  {
+    "id": "job-24",
+    "title": "Data Warehouse & SQL Engineer",
+    "company": "NilePay Solutions",
+    "companyId": "nilepay",
+    "location": "Cairo (Smart Village)",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Level",
+    "salaryRange": "44,000 - 60,000 EGP / month",
+    "postedDaysAgo": 5,
+    "source": "LinkedIn",
+    "applicantsCount": 24,
+    "yearsExperienceMin": 3,
+    "educationRequirement": "B.Sc. in Computer Science or Information Systems",
+    "description": "Design and maintain high-volume financial data pipelines and analytical tables powering merchant transaction dashboards.",
+    "responsibilities": [
+      "Develop and optimize ETL pipelines moving transactional records into analytical warehouses.",
+      "Write complex SQL transformations and tune PostgreSQL execution plans.",
+      "Support business analysts with reliable data models and documentation."
+    ],
+    "requiredSkills": ["SQL", "PostgreSQL", "Python", "Git / GitHub"],
+    "niceToHaveSkills": ["Pandas / NumPy", "Docker", "AWS"],
+    "benefits": [
+      "Smart Village office perks and transit",
+      "Premium health insurance",
+      "Annual bonus"
+    ]
+  },
+  {
+    "id": "job-25",
+    "title": "Senior Frontend Engineer (React, TypeScript & Design Systems)",
+    "company": "Pyramids Cloud Systems",
+    "companyId": "pyramids-cloud",
+    "location": "New Cairo",
+    "workMode": "Remote",
+    "employmentType": "Full-time",
+    "seniority": "Senior",
+    "salaryRange": "65,000 - 95,000 EGP / month",
+    "postedDaysAgo": 2,
+    "source": "LinkedIn",
+    "applicantsCount": 18,
+    "yearsExperienceMin": 4,
+    "educationRequirement": "B.Sc. in Computer Science or Software Engineering",
+    "description": "Architect enterprise cloud consoles and complex monitoring dashboards for sovereign cloud infrastructure in Egypt.",
+    "responsibilities": [
+      "Lead frontend architecture using React, TypeScript, and state management.",
+      "Build complex visual charts, live logs, and resource topology maps.",
+      "Mentor junior frontend engineers and enforce code quality standards."
+    ],
+    "requiredSkills": ["React", "JavaScript", "TypeScript", "Tailwind CSS", "Git / GitHub"],
+    "niceToHaveSkills": ["Next.js", "Docker", "Agile / Scrum"],
+    "benefits": [
+      "100% remote across Egypt",
+      "Home office allowance",
+      "Private medical coverage"
+    ]
+  },
+  {
+    "id": "job-26",
+    "title": "Junior Backend Developer (Node.js & Express)",
+    "company": "Khedive Health",
+    "companyId": "khedive-health",
+    "location": "Giza (Mohandessin)",
+    "workMode": "On-site",
+    "employmentType": "Full-time",
+    "seniority": "Junior",
+    "salaryRange": "20,000 - 28,000 EGP / month",
+    "postedDaysAgo": 3,
+    "source": "Wuzzuf",
+    "applicantsCount": 47,
+    "yearsExperienceMin": 1,
+    "educationRequirement": "Bachelor's degree in CS or Engineering",
+    "description": "Assist our backend team in developing patient record endpoints and lab report delivery integrations.",
+    "responsibilities": [
+      "Write clean RESTful APIs in Node.js and Express.",
+      "Query and update relational data in PostgreSQL.",
+      "Participate in bug fixing and automated test writing."
+    ],
+    "requiredSkills": ["Node.js", "Express.js", "PostgreSQL", "RESTful APIs", "Git / GitHub"],
+    "niceToHaveSkills": ["Redis", "Docker"],
+    "benefits": [
+      "Medical insurance",
+      "Mentorship from senior engineers",
+      "Annual salary review"
+    ]
+  },
+  {
+    "id": "job-27",
+    "title": "Performance Marketing Executive (Meta & Google Ads)",
+    "company": "CairoFin Technologies",
+    "companyId": "cairofin",
+    "location": "New Cairo",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Junior",
+    "salaryRange": "22,000 - 30,000 EGP / month",
+    "postedDaysAgo": 4,
+    "source": "LinkedIn",
+    "applicantsCount": 54,
+    "yearsExperienceMin": 1,
+    "educationRequirement": "Bachelor's degree in Marketing, Business, or Communications",
+    "description": "Execute paid acquisition campaigns driving consumer credit app installs and first-time loan activations.",
+    "responsibilities": [
+      "Launch and optimize daily campaigns across Google Search and Meta Ads.",
+      "Analyze attribution reports and channel CAC using Google Analytics 4.",
+      "Collaborate with copywriters to test ad variations and landing page hooks."
+    ],
+    "requiredSkills": ["SEO & SEM", "Google Analytics 4"],
+    "niceToHaveSkills": ["Content Strategy", "SQL"],
+    "benefits": [
+      "Quarterly performance incentives",
+      "Full medical cover",
+      "Hybrid flexibility"
+    ]
+  },
+  {
+    "id": "job-28",
+    "title": "Junior Data Analyst (SQL & Excel)",
+    "company": "Kemet Logistics",
+    "companyId": "kemet-logistics",
+    "location": "6th of October City",
+    "workMode": "On-site",
+    "employmentType": "Full-time",
+    "seniority": "Junior",
+    "salaryRange": "18,000 - 26,000 EGP / month",
+    "postedDaysAgo": 6,
+    "source": "Forasna",
+    "applicantsCount": 65,
+    "yearsExperienceMin": 1,
+    "educationRequirement": "Degree in Commerce, Engineering, or Computer Science",
+    "description": "Track last-mile delivery success rates, hub turnaround delays, and driver fuel efficiencies across Greater Cairo.",
+    "responsibilities": [
+      "Extract operational metrics using SQL from operational databases.",
+      "Generate daily delivery KPI spreadsheets and executive dashboard summaries.",
+      "Identify route bottlenecks and report discrepancies to hub managers."
+    ],
+    "requiredSkills": ["SQL"],
+    "niceToHaveSkills": ["Python", "Power BI", "Pandas / NumPy"],
+    "benefits": [
+      "Company transport shuttles",
+      "Medical insurance",
+      "Overtime compensation"
+    ]
+  },
+  {
+    "id": "job-29",
+    "title": "Senior Cloud Solutions Architect",
+    "company": "MenaTalent Solutions",
+    "companyId": "menatalent",
+    "location": "Cairo & Riyadh (Dual HQ)",
+    "workMode": "Remote",
+    "employmentType": "Full-time",
+    "seniority": "Senior",
+    "salaryRange": "85,000 - 130,000 EGP / month",
+    "postedDaysAgo": 10,
+    "source": "LinkedIn",
+    "applicantsCount": 12,
+    "yearsExperienceMin": 6,
+    "educationRequirement": "B.Sc. in Computer Engineering or related",
+    "description": "Advise Gulf banking and governmental enterprises on large-scale cloud migrations and infrastructure resilience.",
+    "responsibilities": [
+      "Design multi-region cloud architectures on AWS and GCP.",
+      "Oversee security compliance, disaster recovery, and infrastructure automation.",
+      "Conduct executive architecture presentations and technical workshops."
+    ],
+    "requiredSkills": ["AWS", "Google Cloud Platform", "Kubernetes", "Docker", "Git / GitHub"],
+    "niceToHaveSkills": ["Go (Golang)", "Python", "Agile / Scrum"],
+    "benefits": [
+      "Tax-free international payroll tier",
+      "Annual travel allowance to Riyadh HQ",
+      "Executive global health insurance"
+    ]
+  },
+  {
+    "id": "job-30",
+    "title": "React Native Mobile Engineer",
+    "company": "NilePay Solutions",
+    "companyId": "nilepay",
+    "location": "Cairo (Smart Village)",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Level",
+    "salaryRange": "42,000 - 58,000 EGP / month",
+    "postedDaysAgo": 3,
+    "source": "Wuzzuf",
+    "applicantsCount": 31,
+    "yearsExperienceMin": 2,
+    "educationRequirement": "Degree in Computer Science or Engineering",
+    "description": "Develop our merchant POS companion mobile app supporting bluetooth card reader payments and live receipt delivery.",
+    "responsibilities": [
+      "Build iOS and Android features using React Native and TypeScript.",
+      "Integrate native hardware SDKs for POS card terminals.",
+      "Ensure smooth animations and 60fps scrolling on entry-level Android devices."
+    ],
+    "requiredSkills": ["React Native", "JavaScript", "TypeScript", "RESTful APIs", "Git / GitHub"],
+    "niceToHaveSkills": ["React", "Tailwind CSS"],
+    "benefits": [
+      "Smart Village transit buses",
+      "Private health insurance",
+      "Gym stipend"
+    ]
+  },
+  {
+    "id": "job-31",
+    "title": "Customer Success & Operations Lead",
+    "company": "NileCommerce Hub",
+    "companyId": "nilecommerce",
+    "location": "New Cairo",
+    "workMode": "On-site",
+    "employmentType": "Full-time",
+    "seniority": "Junior",
+    "salaryRange": "17,000 - 24,000 EGP / month",
+    "postedDaysAgo": 7,
+    "source": "Indeed",
+    "applicantsCount": 59,
+    "yearsExperienceMin": 1,
+    "educationRequirement": "Bachelor's degree in any discipline",
+    "description": "Resolve wholesale merchant inquiries, troubleshoot order delivery discrepancies, and maintain 95%+ client satisfaction.",
+    "responsibilities": [
+      "Manage inbound merchant WhatsApp and phone support channels.",
+      "Coordinate with warehouse dispatchers to expedite delayed orders.",
+      "Log bug reports and user feedback for product engineering teams."
+    ],
+    "requiredSkills": [],
+    "niceToHaveSkills": ["Agile / Scrum"],
+    "benefits": [
+      "Modern office perks",
+      "Medical insurance",
+      "Rapid career progression to operations manager"
+    ]
+  },
+  {
+    "id": "job-32",
+    "title": "Senior Data Scientist (Predictive Analytics)",
+    "company": "Alexandria Data Labs",
+    "companyId": "alex-data-labs",
+    "location": "Alexandria (San Stefano)",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Senior",
+    "salaryRange": "60,000 - 85,000 EGP / month",
+    "postedDaysAgo": 5,
+    "source": "LinkedIn",
+    "applicantsCount": 16,
+    "yearsExperienceMin": 4,
+    "educationRequirement": "Master's or Ph.D. in Data Science, Statistics, or CS",
+    "description": "Lead predictive modeling projects for maritime logistics, demand forecasting, and inventory optimization clients.",
+    "responsibilities": [
+      "Develop statistical models and machine learning algorithms using Python.",
+      "Translate ambiguous client challenges into rigorous mathematical frameworks.",
+      "Mentor data analysts and review analytical pipelines."
+    ],
+    "requiredSkills": ["Python", "Pandas / NumPy", "SQL", "Git / GitHub"],
+    "niceToHaveSkills": ["Power BI", "Tableau", "Docker", "AWS"],
+    "benefits": [
+      "San Stefano waterfront office",
+      "Comprehensive medical insurance",
+      "Annual research conference budget"
+    ]
+  },
+  {
+    "id": "job-33",
+    "title": "Junior QA Manual & API Tester",
+    "company": "CairoFin Technologies",
+    "companyId": "cairofin",
+    "location": "New Cairo",
+    "workMode": "On-site",
+    "employmentType": "Full-time",
+    "seniority": "Junior",
+    "salaryRange": "18,000 - 25,000 EGP / month",
+    "postedDaysAgo": 6,
+    "source": "Forasna",
+    "applicantsCount": 78,
+    "yearsExperienceMin": 1,
+    "educationRequirement": "B.Sc. in Computer Science or related degree",
+    "description": "Execute manual test cases, verify edge-case loan calculations, and test mobile app builds before release.",
+    "responsibilities": [
+      "Execute functional and regression test plans for loan applications.",
+      "Verify REST API responses with Postman against swagger documentation.",
+      "Log detailed defect tickets with reproduction steps in Jira."
+    ],
+    "requiredSkills": ["RESTful APIs", "Git / GitHub"],
+    "niceToHaveSkills": ["Automated Testing", "SQL", "Agile / Scrum"],
+    "benefits": [
+      "Shuttle bus from Cairo centers",
+      "Medical insurance",
+      "Path to automation QA role"
+    ]
+  },
+  {
+    "id": "job-34",
+    "title": "Full-Stack Web Developer (React, Next.js & Python)",
+    "company": "Oasis Solar & IoT",
+    "companyId": "oasis-iot",
+    "location": "Giza (Sheikh Zayed)",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Level",
+    "salaryRange": "38,000 - 52,000 EGP / month",
+    "postedDaysAgo": 8,
+    "source": "Wuzzuf",
+    "applicantsCount": 28,
+    "yearsExperienceMin": 2,
+    "educationRequirement": "Degree in Computer Science or Electrical Engineering",
+    "description": "Build IoT telemetry web interfaces monitoring solar inverter performance and battery degradation across Egypt.",
+    "responsibilities": [
+      "Develop solar field telemetry dashboards in React, Next.js, and Tailwind CSS.",
+      "Build ingestion APIs in Python and FastAPI storing sensor telemetry in PostgreSQL.",
+      "Implement real-time alert notifications for inverter faults."
+    ],
+    "requiredSkills": ["React", "JavaScript", "Python", "HTML5 / CSS3", "Tailwind CSS", "PostgreSQL", "Git / GitHub"],
+    "niceToHaveSkills": ["FastAPI", "Docker", "TypeScript"],
+    "benefits": [
+      "Sheikh Zayed tech campus environment",
+      "Private medical plan",
+      "Solar hardware discount for personal home installations"
+    ]
+  },
+  {
+    "id": "job-35",
+    "title": "Senior SEO & Technical Organic Growth Manager",
+    "company": "RedSea Media Group",
+    "companyId": "redsea-media",
+    "location": "Cairo (Zamalek)",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Senior",
+    "salaryRange": "48,000 - 68,000 EGP / month",
+    "postedDaysAgo": 5,
+    "source": "LinkedIn",
+    "applicantsCount": 23,
+    "yearsExperienceMin": 4,
+    "educationRequirement": "Bachelor's degree in Marketing, CS, or Business",
+    "description": "Oversee enterprise organic search strategies and technical indexing architecture for millions of web pages across MENA.",
+    "responsibilities": [
+      "Audit large-scale web applications for Core Web Vitals, canonical architecture, and schema.",
+      "Conduct keyword mapping and competitive content gap analyses.",
+      "Analyze organic traffic trends using Google Search Console and GA4."
+    ],
+    "requiredSkills": ["SEO & SEM", "Google Analytics 4", "Content Strategy"],
+    "niceToHaveSkills": ["HTML5 / CSS3", "SQL", "Figma"],
+    "benefits": [
+      "Zamalek office with Nile view",
+      "Quarterly performance bonuses",
+      "Health insurance"
+    ]
+  },
+  {
+    "id": "job-36",
+    "title": "Database Administrator (PostgreSQL & MySQL)",
+    "company": "Pyramids Cloud Systems",
+    "companyId": "pyramids-cloud",
+    "location": "New Cairo",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Level",
+    "salaryRange": "45,000 - 64,000 EGP / month",
+    "postedDaysAgo": 6,
+    "source": "Bayt",
+    "applicantsCount": 20,
+    "yearsExperienceMin": 3,
+    "educationRequirement": "B.Sc. in Computer Science or Information Systems",
+    "description": "Maintain mission-critical database clusters for Egyptian commercial banks and enterprise retailers.",
+    "responsibilities": [
+      "Perform high-availability replication, automated failover, and disaster recovery testing.",
+      "Analyze query execution plans and index optimizations for PostgreSQL and MySQL.",
+      "Ensure regulatory compliance and encryption of sensitive financial data."
+    ],
+    "requiredSkills": ["PostgreSQL", "MySQL", "SQL", "Docker", "Git / GitHub"],
+    "niceToHaveSkills": ["Redis", "Kubernetes", "AWS"],
+    "benefits": [
+      "Generous health coverage",
+      "Annual training budget",
+      "Flexible hybrid arrangements"
+    ]
+  },
+  {
+    "id": "job-37",
+    "title": "Junior Frontend Developer (Vue.js / JavaScript)",
+    "company": "Delta Retail Express",
+    "companyId": "delta-retail",
+    "location": "Mansoura & Cairo",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Junior",
+    "salaryRange": "18,000 - 25,000 EGP / month",
+    "postedDaysAgo": 4,
+    "source": "Wuzzuf",
+    "applicantsCount": 49,
+    "yearsExperienceMin": 1,
+    "educationRequirement": "Degree in Computer Science or related",
+    "description": "Develop our in-store kiosk checkout screens and staff inventory audit web portals.",
+    "responsibilities": [
+      "Build clean web interfaces using JavaScript, Vue, and modern CSS.",
+      "Integrate barcode scanner events and thermal receipt printers.",
+      "Ensure responsive performance across various low-spec touch displays."
+    ],
+    "requiredSkills": ["JavaScript", "HTML5 / CSS3", "Git / GitHub"],
+    "niceToHaveSkills": ["React", "Tailwind CSS", "RESTful APIs"],
+    "benefits": [
+      "Employee store discounts",
+      "Medical insurance",
+      "Transportation allowance"
+    ]
+  },
+  {
+    "id": "job-38",
+    "title": "Backend Software Engineer (Golang & Microservices)",
+    "company": "NilePay Solutions",
+    "companyId": "nilepay",
+    "location": "Cairo (Smart Village)",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Level",
+    "salaryRange": "50,000 - 70,000 EGP / month",
+    "postedDaysAgo": 3,
+    "source": "LinkedIn",
+    "applicantsCount": 27,
+    "yearsExperienceMin": 3,
+    "educationRequirement": "Computer Engineering or Computer Science degree",
+    "description": "Build high-concurrency payment authorization pipelines with sub-50ms latency in Go.",
+    "responsibilities": [
+      "Implement Go microservices handling banking protocol switches.",
+      "Optimize in-memory data structures and Redis cache invalidations.",
+      "Containerize services and deploy into Kubernetes staging environments."
+    ],
+    "requiredSkills": ["Go (Golang)", "PostgreSQL", "Redis", "Docker", "RESTful APIs", "Git / GitHub"],
+    "niceToHaveSkills": ["Kubernetes", "AWS"],
+    "benefits": [
+      "Top-tier compensation in EGP",
+      "Family health insurance",
+      "Smart Village campus perks"
+    ]
+  },
+  {
+    "id": "job-39",
+    "title": "Senior Product Designer (UX Architecture)",
+    "company": "CairoFin Technologies",
+    "companyId": "cairofin",
+    "location": "New Cairo",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Senior",
+    "salaryRange": "55,000 - 80,000 EGP / month",
+    "postedDaysAgo": 7,
+    "source": "LinkedIn",
+    "applicantsCount": 29,
+    "yearsExperienceMin": 4,
+    "educationRequirement": "Degree in Design, HCI, or related field",
+    "description": "Shape the UX strategy for next-generation digital lending, investment products, and SME financial cards.",
+    "responsibilities": [
+      "Map user journeys, service blueprints, and design systematic design tokens in Figma.",
+      "Conduct in-depth field research with unbanked Egyptian consumers.",
+      "Partner with product managers and engineering leads to measure design impact."
+    ],
+    "requiredSkills": ["Figma", "Agile / Scrum"],
+    "niceToHaveSkills": ["HTML5 / CSS3", "Tailwind CSS"],
+    "benefits": [
+      "Stock grants",
+      "Executive health insurance",
+      "Modern New Cairo headquarters"
+    ]
+  },
+  {
+    "id": "job-40",
+    "title": "Data Analyst (Commercial Finance & Margin Analysis)",
+    "company": "CairoFin Technologies",
+    "companyId": "cairofin",
+    "location": "New Cairo",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Level",
+    "salaryRange": "35,000 - 48,000 EGP / month",
+    "postedDaysAgo": 2,
+    "source": "LinkedIn",
+    "applicantsCount": 33,
+    "yearsExperienceMin": 2,
+    "educationRequirement": "Degree in Finance, Statistics, or Computer Science",
+    "description": "Analyze merchant default rates, installment collection timing, and interest margin revenues.",
+    "responsibilities": [
+      "Extract and analyze portfolio performance using SQL from Postgres databases.",
+      "Build automated cohort default curves in Python and Power BI.",
+      "Collaborate with risk officers to calibrate underwriting scorecards."
+    ],
+    "requiredSkills": ["SQL", "Python", "Power BI", "Pandas / NumPy", "PostgreSQL"],
+    "niceToHaveSkills": ["Tableau", "Git / GitHub"],
+    "benefits": [
+      "Competitive salary and performance bonuses",
+      "Family medical coverage",
+      "Flexible hybrid work"
+    ]
+  },
+  {
+    "id": "job-41",
+    "title": "Junior IT Support & Network Administrator",
+    "company": "Kemet Logistics",
+    "companyId": "kemet-logistics",
+    "location": "6th of October City",
+    "workMode": "On-site",
+    "employmentType": "Full-time",
+    "seniority": "Junior",
+    "salaryRange": "14,000 - 20,000 EGP / month",
+    "postedDaysAgo": 8,
+    "source": "Forasna",
+    "applicantsCount": 94,
+    "yearsExperienceMin": 1,
+    "educationRequirement": "Technical Diploma or B.Sc. in Computer Science/IT",
+    "description": "Maintain office network switches, barcode scanner fleet, and warehouse workstation hardware.",
+    "responsibilities": [
+      "Configure Windows workstations, printer drivers, and local area network cables.",
+      "Troubleshoot handheld warehouse scanner issues and firmware updates.",
+      "Assist employees with email account access and VPN connectivity."
+    ],
+    "requiredSkills": [],
+    "niceToHaveSkills": [],
+    "benefits": [
+      "Company transportation",
+      "Social and health insurance",
+      "Annual uniform and safety gear"
+    ]
+  },
+  {
+    "id": "job-42",
+    "title": "Cloud Security & Compliance Specialist",
+    "company": "Pyramids Cloud Systems",
+    "companyId": "pyramids-cloud",
+    "location": "New Cairo",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Senior",
+    "salaryRange": "60,000 - 88,000 EGP / month",
+    "postedDaysAgo": 12,
+    "source": "Indeed",
+    "applicantsCount": 14,
+    "yearsExperienceMin": 4,
+    "educationRequirement": "B.Sc. in Cybersecurity, Computer Engineering, or CS",
+    "description": "Lead cloud vulnerability management and PCI-DSS compliance audits for Egyptian fintech clients.",
+    "responsibilities": [
+      "Implement automated security scanners in CI/CD pipelines.",
+      "Audit Kubernetes and AWS identity policies against ISO 27001 standards.",
+      "Conduct penetration tests and incident response drills."
+    ],
+    "requiredSkills": ["Docker", "Kubernetes", "AWS", "Git / GitHub"],
+    "niceToHaveSkills": ["Python", "Go (Golang)"],
+    "benefits": [
+      "Comprehensive medical package",
+      "Security certification sponsorship (CISSP, CISA)",
+      "Hybrid flexibility"
+    ]
+  },
+  {
+    "id": "job-43",
+    "title": "Junior Creative Copywriter (Bilingual Arabic & English)",
+    "company": "RedSea Media Group",
+    "companyId": "redsea-media",
+    "location": "Cairo (Zamalek)",
+    "workMode": "On-site",
+    "employmentType": "Full-time",
+    "seniority": "Junior",
+    "salaryRange": "15,000 - 22,000 EGP / month",
+    "postedDaysAgo": 5,
+    "source": "Wuzzuf",
+    "applicantsCount": 81,
+    "yearsExperienceMin": 1,
+    "educationRequirement": "Degree in Applied Arts, Languages, or Communications",
+    "description": "Craft persuasive Arabic ad copy, punchy English taglines, and creative brand storytelling for consumer apps.",
+    "responsibilities": [
+      "Write advertising headlines for Meta, Google, and Out-of-Home billboards.",
+      "Localize international brand campaigns into authentic Egyptian vernacular.",
+      "Brainstorm campaign themes with art directors and visual designers."
+    ],
+    "requiredSkills": ["Content Strategy"],
+    "niceToHaveSkills": ["SEO & SEM"],
+    "benefits": [
+      "Zamalek office environment",
+      "Medical insurance",
+      "Direct creative mentorship"
+    ]
+  },
+  {
+    "id": "job-44",
+    "title": "Full-Stack Engineer (React, Node.js & Docker)",
+    "company": "NilePay Solutions",
+    "companyId": "nilepay",
+    "location": "Cairo (Smart Village)",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Level",
+    "salaryRange": "45,000 - 64,000 EGP / month",
+    "postedDaysAgo": 2,
+    "source": "LinkedIn",
+    "applicantsCount": 37,
+    "yearsExperienceMin": 2,
+    "educationRequirement": "Computer Science or Engineering degree",
+    "description": "Build modern web applications connecting merchant management frontends with payment execution backends.",
+    "responsibilities": [
+      "Develop responsive user interfaces using React and Tailwind CSS.",
+      "Build robust Node.js microservices with PostgreSQL and Docker.",
+      "Maintain high unit test coverage and clean API documentation."
+    ],
+    "requiredSkills": ["React", "JavaScript", "Node.js", "Express.js", "PostgreSQL", "Docker", "Tailwind CSS", "Git / GitHub"],
+    "niceToHaveSkills": ["TypeScript", "Redis", "AWS"],
+    "benefits": [
+      "Medical insurance covering employee and dependents",
+      "Smart Village campus transport",
+      "Annual bonus"
+    ]
+  },
+  {
+    "id": "job-45",
+    "title": "Growth Marketing Specialist (User Acquisition & Funnels)",
+    "company": "Khedive Health",
+    "companyId": "khedive-health",
+    "location": "Giza (Mohandessin)",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Level",
+    "salaryRange": "32,000 - 45,000 EGP / month",
+    "postedDaysAgo": 3,
+    "source": "LinkedIn",
+    "applicantsCount": 41,
+    "yearsExperienceMin": 2,
+    "educationRequirement": "Marketing or Business degree",
+    "description": "Drive telemedicine patient signups and specialist consultation bookings across Egypt.",
+    "responsibilities": [
+      "Optimize paid campaigns on Google Search, Meta, and YouTube.",
+      "Track patient conversion funnels using Google Analytics 4.",
+      "Run organic SEO experiments to improve specialist directory rankings."
+    ],
+    "requiredSkills": ["SEO & SEM", "Google Analytics 4", "Content Strategy"],
+    "niceToHaveSkills": ["SQL", "Figma"],
+    "benefits": [
+      "Comprehensive medical package",
+      "Performance incentives",
+      "Flexible schedule"
+    ]
+  },
+  {
+    "id": "job-46",
+    "title": "Business Intelligence Analyst (Power BI & SQL)",
+    "company": "Kemet Logistics",
+    "companyId": "kemet-logistics",
+    "location": "6th of October City",
+    "workMode": "Hybrid",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Level",
+    "salaryRange": "30,000 - 42,000 EGP / month",
+    "postedDaysAgo": 4,
+    "source": "Wuzzuf",
+    "applicantsCount": 34,
+    "yearsExperienceMin": 2,
+    "educationRequirement": "Degree in Commerce, Economics, or Computer Science",
+    "description": "Transform fleet fuel consumption, driver delivery turnaround times, and customer SLA adherence data into automated Power BI dashboards.",
+    "responsibilities": [
+      "Write optimized SQL queries to query delivery records from PostgreSQL.",
+      "Design intuitive Power BI dashboards with drill-down geographic maps.",
+      "Partner with operations directors to identify cost-saving initiatives."
+    ],
+    "requiredSkills": ["SQL", "Power BI", "PostgreSQL", "Pandas / NumPy"],
+    "niceToHaveSkills": ["Python", "Tableau", "Git / GitHub"],
+    "benefits": [
+      "Company transport",
+      "Health insurance",
+      "Annual performance bonus"
+    ]
+  }
+]

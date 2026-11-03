@@ -1,0 +1,329 @@
+[
+  {
+    "id": "c1",
+    "name": "Omar Tarek",
+    "role": "Junior Frontend Developer",
+    "avatar": "/assets/avatars/omar-tarek.jpg",
+    "headline": "Junior Frontend Engineer | React, TypeScript & Modern Web",
+    "email": "omar.tarek.dev@example.com",
+    "phone": "+20 102 489 1102",
+    "location": "Cairo, Egypt",
+    "linkedinUrl": "https://linkedin.com/in/omar-tarek-dev",
+    "yearsExperience": 1,
+    "summary": "Detail-oriented Frontend Engineer and recent Computer Science graduate from Ain Shams University (Top 5%). Hands-on experience developing modular React and TypeScript web applications with responsive Tailwind CSS interfaces. Passionate about web performance, clean component architecture, and building accessible user experiences.",
+    "skills": [
+      { "id": "react", "name": "React", "level": "Advanced" },
+      { "id": "javascript", "name": "JavaScript", "level": "Advanced" },
+      { "id": "typescript", "name": "TypeScript", "level": "Intermediate" },
+      { "id": "tailwind", "name": "Tailwind CSS", "level": "Advanced" },
+      { "id": "html-css", "name": "HTML5 / CSS3", "level": "Advanced" },
+      { "id": "nextjs", "name": "Next.js", "level": "Intermediate" },
+      { "id": "git", "name": "Git / GitHub", "level": "Intermediate" },
+      { "id": "rest-api", "name": "RESTful APIs", "level": "Intermediate" }
+    ],
+    "experience": [
+      {
+        "company": "NilePay Solutions",
+        "role": "Frontend Engineering Intern",
+        "location": "Cairo (Smart Village)",
+        "startDate": "Jul 2024",
+        "endDate": "Oct 2024",
+        "current": false,
+        "description": "Collaborated with the merchant dashboard team to modernize onboarding workflows and invoice reconciliation interfaces.",
+        "achievements": [
+          "Migrated 14 legacy merchant onboarding screens to React 18 and Tailwind CSS, reducing initial page load time by 34%.",
+          "Engineered reusable data table components handling live transaction streams for 2,500+ active Egyptian merchants.",
+          "Implemented comprehensive client-side form validation and accessible keyboard navigation across all checkout views."
+        ]
+      },
+      {
+        "company": "Freelance & University Lab",
+        "role": "Web Developer & Lab Assistant",
+        "location": "Cairo",
+        "startDate": "Oct 2023",
+        "endDate": "Jun 2024",
+        "current": false,
+        "description": "Built responsive web applications for local businesses and mentored 60+ junior students in web fundamentals.",
+        "achievements": [
+          "Developed custom responsive landing pages and booking flows for 3 Egyptian educational clinics using Next.js.",
+          "Conducted weekly practical lab sessions on React component lifecycle, state management, and modern CSS layout."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Sc. in Computer Science",
+        "institution": "Ain Shams University, Faculty of Computer and Information Sciences",
+        "year": "2020 - 2024",
+        "grade": "Excellent with Honors (GPA 3.82 / 4.0)"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Fitly Job Matcher Prototype",
+        "description": "Single-page React application matching tech candidates to local MENA listings with weighted scoring and tailored CV output.",
+        "techStack": ["React", "Tailwind CSS", "Vite"]
+      },
+      {
+        "title": "Cairo Metro Live Route Optimizer",
+        "description": "Bilingual PWA helping commuters find optimal interchange stations with offline crowd estimates.",
+        "techStack": ["TypeScript", "React", "IndexedDB"]
+      }
+    ],
+    "certifications": [
+      "Meta Front-End Developer Professional Certificate (Coursera)",
+      "Modern React with Redux - Stephen Grider (Udemy)"
+    ],
+    "languages": [
+      { "language": "Arabic", "proficiency": "Native" },
+      { "language": "English", "proficiency": "Professional Working" }
+    ]
+  },
+  {
+    "id": "c2",
+    "name": "Salma Hassan",
+    "role": "Mid-Level Backend Engineer",
+    "avatar": "/assets/avatars/salma-hassan.jpg",
+    "headline": "Backend Engineer | Node.js, PostgreSQL, Docker & Microservices",
+    "email": "salma.hassan.eng@example.com",
+    "phone": "+20 111 872 9043",
+    "location": "Giza, Egypt",
+    "linkedinUrl": "https://linkedin.com/in/salma-hassan-backend",
+    "yearsExperience": 3,
+    "summary": "Results-driven Backend Engineer with 3+ years of production experience architecting high-throughput microservices, robust financial ledger pipelines, and optimized relational database queries. Proven track record scaling fintech APIs serving over 400,000 monthly active users across Egypt.",
+    "skills": [
+      { "id": "nodejs", "name": "Node.js", "level": "Advanced" },
+      { "id": "express", "name": "Express.js", "level": "Advanced" },
+      { "id": "postgresql", "name": "PostgreSQL", "level": "Advanced" },
+      { "id": "redis", "name": "Redis", "level": "Intermediate" },
+      { "id": "docker", "name": "Docker", "level": "Intermediate" },
+      { "id": "rest-api", "name": "RESTful APIs", "level": "Advanced" },
+      { "id": "git", "name": "Git / GitHub", "level": "Advanced" },
+      { "id": "aws", "name": "AWS", "level": "Intermediate" },
+      { "id": "typescript", "name": "TypeScript", "level": "Intermediate" },
+      { "id": "agile", "name": "Agile / Scrum", "level": "Advanced" }
+    ],
+    "experience": [
+      {
+        "company": "CairoFin Technologies",
+        "role": "Backend Software Engineer",
+        "location": "New Cairo",
+        "startDate": "Nov 2022",
+        "endDate": "Present",
+        "current": true,
+        "description": "Core architect on the credit scoring and installment processing engine for Egypt's fastest growing BNPL service.",
+        "achievements": [
+          "Redesigned the loan repayment queue with BullMQ and Redis, boosting throughput by 280% during end-of-month peak loads.",
+          "Optimized slow PostgreSQL transaction queries across 12M rows, reducing p95 latency from 480ms down to 65ms.",
+          "Integrated 4 major Egyptian payment gateways (Fawry, Paymob, Meeza, Aman) with automated idempotent webhooks."
+        ]
+      },
+      {
+        "company": "Kemet Logistics",
+        "role": "Junior Backend Developer",
+        "location": "6th of October City",
+        "startDate": "Aug 2021",
+        "endDate": "Oct 2022",
+        "current": false,
+        "description": "Built automated route dispatcher APIs and warehouse barcode scanning integrations.",
+        "achievements": [
+          "Delivered 18 REST endpoints for delivery dispatchers with 99.8% uptime.",
+          "Containerized the core node service with Docker, cutting staging deployment cycles from 45 minutes to 7 minutes."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Sc. in Computer Engineering",
+        "institution": "Cairo University, Faculty of Engineering",
+        "year": "2017 - 2021",
+        "grade": "Very Good (Ranked 12th in class)"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Idempotent Ledger Engine",
+        "description": "Double-entry accounting microservice supporting atomic transactions and concurrent ledger balancing in Node and Postgres.",
+        "techStack": ["Node.js", "PostgreSQL", "Redis", "Docker"]
+      }
+    ],
+    "certifications": [
+      "AWS Certified Solutions Architect – Associate",
+      "Node.js Application Development (Linux Foundation - LFW211)"
+    ],
+    "languages": [
+      { "language": "Arabic", "proficiency": "Native" },
+      { "language": "English", "proficiency": "Full Professional" }
+    ]
+  },
+  {
+    "id": "c3",
+    "name": "Karim Mostafa",
+    "role": "Digital Marketing & Growth Lead",
+    "avatar": "/assets/avatars/karim-mostafa.jpg",
+    "headline": "Growth Marketer | Paid Acquisition, SEO, GA4 & App Retention",
+    "email": "karim.growth@example.com",
+    "phone": "+20 100 551 2289",
+    "location": "New Cairo, Egypt",
+    "linkedinUrl": "https://linkedin.com/in/karim-mostafa-growth",
+    "yearsExperience": 3.5,
+    "summary": "Data-led Growth and Digital Marketing Specialist with 3.5 years driving multi-channel customer acquisition across MENA. Managed over 3.2M EGP in paid media campaigns with consistent ROAS above 4.2x. Expert in technical SEO, Google Analytics 4, conversion funnel optimization, and lifecycle retention.",
+    "skills": [
+      { "id": "seo", "name": "SEO & SEM", "level": "Advanced" },
+      { "id": "google-analytics", "name": "Google Analytics 4", "level": "Advanced" },
+      { "id": "content-marketing", "name": "Content Strategy", "level": "Advanced" },
+      { "id": "sql", "name": "SQL", "level": "Intermediate" },
+      { "id": "figma", "name": "Figma", "level": "Intermediate" },
+      { "id": "agile", "name": "Agile / Scrum", "level": "Intermediate" }
+    ],
+    "experience": [
+      {
+        "company": "RedSea Media Group",
+        "role": "Senior Performance Marketing Specialist",
+        "location": "Cairo (Zamalek)",
+        "startDate": "Jan 2023",
+        "endDate": "Present",
+        "current": true,
+        "description": "Lead user acquisition and paid search/social accounts for 5 high-growth Egyptian consumer apps.",
+        "achievements": [
+          "Scaled Google Search and Meta Ads spend from 80K EGP to 450K EGP/month while maintaining cost-per-acquisition (CPA) under 24 EGP.",
+          "Built end-to-end attribution dashboards with GA4 and Looker Studio unifying blended CAC across 6 acquisition channels.",
+          "Conducted 35+ A/B landing page experiments, lifting visitor-to-signup conversion rates from 4.1% to 8.9%."
+        ]
+      },
+      {
+        "company": "Delta Retail Express",
+        "role": "Digital Marketing Executive",
+        "location": "Mansoura & Cairo",
+        "startDate": "Sep 2021",
+        "endDate": "Dec 2022",
+        "current": false,
+        "description": "Spearheaded local search presence and seasonal promotional campaigns for regional retail branches.",
+        "achievements": [
+          "Grew organic search traffic by 140% across 22 Nile Delta branch landing pages using structured schema markup.",
+          "Managed automated SMS and WhatsApp re-engagement campaigns boosting repeated weekly purchases by 28%."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.A. in Integrated Marketing Communications",
+        "institution": "The American University in Cairo (AUC)",
+        "year": "2017 - 2021",
+        "grade": "High Honors"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Egyptian E-commerce CAC Benchmark Study",
+        "description": "Quarterly public report analyzing CPC, CPM, and conversion trends across 40+ Egyptian digital retail brands.",
+        "techStack": ["Google Analytics", "Looker Studio", "Google Ads"]
+      }
+    ],
+    "certifications": [
+      "Google Ads Search & Measurement Certified",
+      "Meta Certified Digital Marketing Associate",
+      "Reforge Growth Series 2023"
+    ],
+    "languages": [
+      { "language": "Arabic", "proficiency": "Native" },
+      { "language": "English", "proficiency": "Bilingual / Native" }
+    ]
+  },
+  {
+    "id": "c4",
+    "name": "Nour El-Din Mansour",
+    "role": "Data Analyst & BI Specialist",
+    "avatar": "/assets/avatars/nour-mansour.jpg",
+    "headline": "Data Analyst | Python, SQL, Power BI & Business Intelligence",
+    "email": "nour.mansour.data@example.com",
+    "phone": "+20 128 334 7890",
+    "location": "Alexandria, Egypt",
+    "linkedinUrl": "https://linkedin.com/in/nour-mansour-data",
+    "yearsExperience": 2,
+    "summary": "Analytical Data Specialist with 2 years of experience turning complex supply chain and retail transactional data into automated executive dashboards and actionable operational insights. Proficient in complex SQL queries, Python data wrangling, and enterprise Power BI modeling.",
+    "skills": [
+      { "id": "sql", "name": "SQL", "level": "Advanced" },
+      { "id": "python", "name": "Python", "level": "Advanced" },
+      { "id": "pandas", "name": "Pandas / NumPy", "level": "Advanced" },
+      { "id": "powerbi", "name": "Power BI", "level": "Advanced" },
+      { "id": "tableau", "name": "Tableau", "level": "Intermediate" },
+      { "id": "postgresql", "name": "PostgreSQL", "level": "Intermediate" },
+      { "id": "git", "name": "Git / GitHub", "level": "Intermediate" }
+    ],
+    "experience": [
+      {
+        "company": "Alexandria Data Labs",
+        "role": "Data Analyst",
+        "location": "Alexandria",
+        "startDate": "Feb 2023",
+        "endDate": "Present",
+        "current": true,
+        "description": "Analyze client warehouse logistics and retail transaction streams to forecast demand and identify stockout patterns.",
+        "achievements": [
+          "Engineered automated ETL scripts in Python processing 450,000 daily transaction lines from legacy ERP to PostgreSQL.",
+          "Authored 8 core Power BI executive dashboards with custom DAX calculations, eliminating 15 hours of manual weekly reporting.",
+          "Discovered inventory shrinkage anomalies saving client maritime distributor an estimated 650,000 EGP annually."
+        ]
+      },
+      {
+        "company": "Delta Retail Express",
+        "role": "Junior Inventory Analyst",
+        "location": "Alexandria / Tanta",
+        "startDate": "Aug 2022",
+        "endDate": "Jan 2023",
+        "current": false,
+        "description": "Monitored inventory turnaround times and built weekly Excel & SQL reports for supply coordinators.",
+        "achievements": [
+          "Consolidated 6 regional warehouse spreadsheets into unified relational database tables.",
+          "Cut month-end closing reconciliation from 4 days to 6 hours using automated SQL procedures."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Sc. in Statistics and Economics",
+        "institution": "Alexandria University, Faculty of Commerce",
+        "year": "2018 - 2022",
+        "grade": "Very Good with Distinction"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Alexandria Port Container Flow Forecast",
+        "description": "Time-series predictive model predicting freight berth congestion using Python and historical maritime records.",
+        "techStack": ["Python", "Pandas", "Scikit-Learn", "Streamlit"]
+      }
+    ],
+    "certifications": [
+      "Microsoft Certified: Power BI Data Analyst Associate (PL-300)",
+      "IBM Data Analyst Professional Certificate"
+    ],
+    "languages": [
+      { "language": "Arabic", "proficiency": "Native" },
+      { "language": "English", "proficiency": "Professional Working" }
+    ]
+  },
+  {
+    "id": "blank",
+    "name": "Your Name",
+    "role": "Candidate Profile",
+    "avatar": "/assets/avatars/default-avatar.svg",
+    "headline": "Your Professional Headline",
+    "email": "you@example.com",
+    "phone": "+20 100 000 0000",
+    "location": "Cairo, Egypt",
+    "linkedinUrl": "",
+    "yearsExperience": 0,
+    "summary": "Brief summary of your background, key strengths, and target roles.",
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "projects": [],
+    "certifications": [],
+    "languages": [
+      { "language": "Arabic", "proficiency": "Native" },
+      { "language": "English", "proficiency": "Intermediate" }
+    ]
+  }
+]

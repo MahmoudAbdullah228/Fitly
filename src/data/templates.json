@@ -1,0 +1,33 @@
+{
+  "cvSummaryTemplates": [
+    "Dedicated and results-focused {role} with proven expertise in {matchedSkills}. Demonstrates strong track record delivering scalable solutions, collaborating within agile squads, and driving operational excellence at organizations like {targetCompany}.",
+    "Performance-driven {role} offering hands-on experience across {matchedSkills}. Recognized for analytical problem-solving, rapid prototyping, and delivering reliable value aligned with {targetCompany}'s technical standards.",
+    "Goal-oriented {role} bringing specialized capabilities in {matchedSkills}. Adept at bridging technical specifications and business impact, eager to leverage demonstrated achievements to accelerate growth at {targetCompany}."
+  ],
+  "coverLetterTemplates": {
+    "professional": {
+      "name": "Professional",
+      "toneDescription": "Formal, metric-focused, structured, and ATS-optimized.",
+      "template": "Dear Hiring Team at {company},\n\nI am writing to express my strong enthusiasm for the {title} position currently open at {company}. Having followed {company}'s notable impact within the {industry} sector in Egypt and the region, I am excited by the prospect of contributing directly to your team's mission.\n\nWith hands-on background in {matchedSkills}, I have consistently focused on delivering measurable outcomes. In my recent roles, I have spearheaded initiatives that optimized core workflows, reduced latency, and enhanced user satisfaction. The requirements outlined in your job posting closely reflect my technical toolkit—particularly my experience applying {topSkill} to solve high-impact operational challenges.\n\nKey areas where I can deliver immediate value at {company} include:\n• Applying {matchedSkillsSummary} to design maintainable, standards-compliant solutions.\n• Collaborating seamlessly in cross-functional agile teams to hit sprint deadlines reliably.\n• Maintaining meticulous attention to quality, system reliability, and product performance.\n\nI would welcome the opportunity to discuss how my background, technical rigor, and enthusiasm make me a strong fit for {company}. Thank you for your time and consideration.\n\nSincerely,\n{candidateName}\n{candidatePhone} | {candidateEmail}\n{candidateLocation}"
+    },
+    "friendly": {
+      "name": "Friendly & Conversational",
+      "toneDescription": "Warm, engaging, startup-oriented, and authentic.",
+      "template": "Hi {company} team,\n\nI was thrilled to come across the {title} role at {company}! As someone who deeply admires how your team approaches {industry} here in Egypt, I couldn't resist reaching out.\n\nOver the past few years, I've loved building solutions centered around {matchedSkills}. What particularly caught my eye about your job description is the focus on {topSkill}—an area where I've spent considerable time tackling real-world problems and shipping user-first experiences.\n\nHere is a quick snapshot of what I'd love to bring to {company}:\n- Strong hands-on proficiency in {matchedSkillsSummary}.\n- A collaborative, can-do mindset that loves learning fast and supporting teammates.\n- Genuine excitement about {company}'s roadmap and product vision.\n\nI'd be delighted to jump on a quick call to chat about how my skills align with what you're building. Looking forward to the conversation!\n\nBest regards,\n{candidateName}\n{candidatePhone} | {candidateEmail}\n{candidateLocation}"
+    },
+    "concise": {
+      "name": "Concise & Direct",
+      "toneDescription": "Short, punchy, bullet-driven, and quick to scan in under 30 seconds.",
+      "template": "Dear {company} Hiring Team,\n\nPlease accept my application for the {title} opening at {company}.\n\nWhy I am an immediate fit for this role:\n1. Core Tooling: Extensive practical experience with {matchedSkillsSummary}.\n2. Proven Track Record: Delivered measurable results in previous projects, with particular depth in {topSkill}.\n3. Cultural Alignment: Excited to support {company}'s growth within {location}.\n\nMy complete CV is attached with details on past projects, technical milestones, and verified certifications. I am available for an interview at your earliest convenience.\n\nRespectfully,\n{candidateName}\n{candidatePhone} | {candidateEmail}"
+    }
+  },
+  "atsChecklist": [
+    { "id": "contact_info", "label": "Full contact details (email, phone, location) included", "required": true },
+    { "id": "standard_headings", "label": "Standard section headings (Experience, Education, Skills)", "required": true },
+    { "id": "single_column", "label": "Single-column linear layout without nested layout tables", "required": true },
+    { "id": "keyword_density", "label": "Core required skills mirrored in bullet points", "required": true },
+    { "id": "action_verbs", "label": "Impact bullets begin with active leadership verbs", "required": true },
+    { "id": "quantified_metrics", "label": "Achievements backed by percentages, numbers, or time saved", "required": false },
+    { "id": "no_graphical_bars", "label": "No graphic skill percentage bars or decorative icons", "required": true }
+  ]
+}

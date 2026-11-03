@@ -1,0 +1,96 @@
+{
+  "creditCost": {
+    "tailorCv": 1,
+    "generateCoverLetter": 1,
+    "fullApplication": 2,
+    "starterCredits": 4
+  },
+  "creditPacks": [
+    {
+      "id": "pack-starter",
+      "name": "Starter Pack",
+      "credits": 6,
+      "applicationsCount": 3,
+      "priceEgp": 179,
+      "unitPriceEgp": "30 EGP / credit",
+      "popular": false,
+      "description": "Ideal for a quick sprint applying to 3 high-priority matching jobs."
+    },
+    {
+      "id": "pack-growth",
+      "name": "Active Seeker Pack",
+      "credits": 16,
+      "applicationsCount": 8,
+      "priceEgp": 399,
+      "unitPriceEgp": "25 EGP / credit",
+      "popular": true,
+      "badge": "Best Value Pack",
+      "description": "Our most popular pack. Enough tailored applications for two full interview cycles."
+    },
+    {
+      "id": "pack-pro",
+      "name": "Intensive Pack",
+      "credits": 40,
+      "applicationsCount": 20,
+      "priceEgp": 799,
+      "unitPriceEgp": "20 EGP / credit",
+      "popular": false,
+      "description": "Maximum credits for candidates targeting competitive multi-company rounds."
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "sub-starter",
+      "name": "Starter",
+      "monthlyPriceEgp": 299,
+      "yearlyPriceEgp": 2890,
+      "monthlyCredits": 16,
+      "featured": false,
+      "description": "For job seekers exploring new career opportunities at a steady pace.",
+      "features": [
+        "16 AI credits / month (8 full applications)",
+        "Top 10 job fit ranking algorithm",
+        "Deterministic ATS keyword scoring",
+        "Export tailored CV to PDF",
+        "Applications status tracker",
+        "Email support"
+      ]
+    },
+    {
+      "id": "sub-pro",
+      "name": "Professional",
+      "monthlyPriceEgp": 599,
+      "yearlyPriceEgp": 5750,
+      "monthlyCredits": 36,
+      "featured": true,
+      "badge": "Most Popular",
+      "description": "Everything an active applicant needs to land interviews 3x faster.",
+      "features": [
+        "36 AI credits / month (18 full applications)",
+        "Deep skill gap & strengths analysis",
+        "ATS keyword coverage checklist & diff viewer",
+        "3 Cover Letter tones (Professional, Friendly, Concise)",
+        "Priority AI queue (< 1.5s simulated generation)",
+        "Unlimited saved jobs & custom notes",
+        "Full usage history & credit rollover"
+      ]
+    },
+    {
+      "id": "sub-power",
+      "name": "Power Career",
+      "monthlyPriceEgp": 999,
+      "yearlyPriceEgp": 9590,
+      "monthlyCredits": 80,
+      "featured": false,
+      "description": "For senior talent and aggressive job switchers seeking multiple offers.",
+      "features": [
+        "80 AI credits / month (40 full applications)",
+        "All Professional features included",
+        "Multiple resume version manager",
+        "MENA regional salary benchmark reports",
+        "Unlimited CV and cover letter regenerations",
+        "Dedicated VIP onboarding assistance"
+      ]
+    }
+  ]
+}
