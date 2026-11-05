@@ -161,6 +161,14 @@ On restart, read this file, find the first unchecked task `[ ]` or in-progress t
 - **2026-11-03**: Built custom SVG device mockup composite (MacBook + iPhone) to recreate Expo-style signature hero without external image dependencies.
 - **2026-11-03**: Tuned skill weighting so jobs without technical requirements default to moderate/low baseline (0.35) so candidates matching specific required skills properly bubble to the top.
 - **2026-11-03**: Integrated print stylesheet so clicking "Download PDF" prints clean single-column ATS CV directly via native browser print engine without bloated external PDF libraries.
+- **2026-11-03**: Replaced "F" monogram with official `favicon.svg` in Navbar and Footer.
+- **2026-11-03**: Removed all glowing/pulsing dots from pill badges, status chips, and ScoreRing across the entire project.
+- **2026-11-03**: Eliminated pre-made candidate selection picker (4 demo candidates) and Demo Quick Switcher — users now exclusively build and manage their own authentic profile through CV/LinkedIn upload or manual entry.
+- **2026-11-03**: Overhauled mobile table layouts (`< md` and `< sm`) for the Comparison Table (Landing) and Credits Usage History Table into stacked responsive cards, eliminating text cramping and stacking on phone screens.
+- **2026-11-03**: Removed "Step X of Y" pill badge from Onboarding page to eliminate the robotic AI-wizard feel and streamline user flow.
+- **2026-11-03**: Re-architected Job Detail sidebar (`MatchAnalysis.jsx`) from squeezed multi-column grid into a clean, spacious single-column layout, resolving badge collisions between Matched Skills and Missing Skills.
+- **2026-11-03**: Optimized all button groups across mobile viewports (Job Detail, Onboarding, Modals, Cards) to stack vertically (`flex-col-reverse sm:flex-row`) and expand to full width (`w-full sm:w-auto`), preventing any mobile button collisions or overlaps.
+- **2026-11-03**: Fixed "Best Value Pack" and "Most Popular" floating badge clipping across all pricing tiers.
 
 ---
 

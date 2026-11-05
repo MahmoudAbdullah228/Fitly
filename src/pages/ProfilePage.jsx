@@ -7,11 +7,9 @@ import Chip from '../components/ui/Chip.jsx';
 import Badge from '../components/ui/Badge.jsx';
 import Modal from '../components/ui/Modal.jsx';
 import { useToast } from '../components/ui/Toast.jsx';
-import demoCandidates from '../data/candidates.json' with { type: 'json' };
 import skillsTaxonomy from '../data/skills.json' with { type: 'json' };
 import { 
   User, 
-  Sparkles, 
   Plus, 
   Save, 
   RotateCcw, 
@@ -40,23 +38,6 @@ export default function ProfilePage() {
 
   const [newSkillText, setNewSkillText] = useState('');
   const [showResetModal, setShowResetModal] = useState(false);
-
-  // Switch demo profile directly
-  const handleSwitchCandidate = (cand) => {
-    setCandidate(cand);
-    setFormData({
-      name: cand.name,
-      headline: cand.headline,
-      role: cand.role,
-      email: cand.email,
-      phone: cand.phone,
-      location: cand.location,
-      yearsExperience: cand.yearsExperience,
-      summary: cand.summary,
-      skills: cand.skills || [],
-    });
-    showToast(`Switched active candidate to ${cand.name}!`, 'success');
-  };
 
   // Add skill
   const handleAddSkill = () => {
@@ -102,43 +83,11 @@ export default function ProfilePage() {
             </p>
           </div>
 
-          <Button variant="primary" onClick={handleSave}>
+          <Button variant="primary" className="w-full sm:w-auto justify-center" onClick={handleSave}>
             <Save className="w-4 h-4 mr-1.5" />
             <span>Save & Recalculate Matches</span>
           </Button>
         </div>
-
-        {/* Demo Switcher Quick Bar */}
-        <Card className="p-4 bg-canvas-soft border border-hairline space-y-3">
-          <div className="flex items-center justify-between">
-            <span className="text-xs font-semibold uppercase tracking-wider text-muted font-mono flex items-center gap-1.5">
-              <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
-              <span>Demo Quick Switcher (Swap Candidate)</span>
-            </span>
-          </div>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
-            {demoCandidates.filter((c) => c.id !== 'blank').map((c) => {
-              const isSelected = candidate.id === c.id;
-              return (
-                <button
-                  key={c.id}
-                  type="button"
-                  onClick={() => handleSwitchCandidate(c)}
-                  className={`p-2.5 rounded-lg text-left text-xs font-medium border transition-all ${
-                    isSelected
-                      ? 'bg-primary text-white border-primary shadow-xs'
-                      : 'bg-white text-ink border-hairline hover:bg-surface-strong'
-                  }`}
-                >
-                  <span className="font-semibold block truncate">{c.name}</span>
-                  <span className={`text-[10px] block truncate opacity-75 ${isSelected ? 'text-white' : 'text-body'}`}>
-                    {c.role}
-                  </span>
-                </button>
-              );
-            })}
-          </div>
-        </Card>
 
         {/* Form Sections */}
         <div className="space-y-6">

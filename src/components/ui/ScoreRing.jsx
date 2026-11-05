@@ -34,10 +34,6 @@ export default function ScoreRing({
       <span
         className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold border ${badgeBg} ${className}`}
       >
-        <span
-          className="w-2 h-2 rounded-full shrink-0"
-          style={{ backgroundColor: colorHex }}
-        />
         <span className="font-mono tracking-tight">{normalizedScore}%</span>
         {showLabel && <span className="font-sans font-normal text-[11px] opacity-80">{labelText}</span>}
       </span>

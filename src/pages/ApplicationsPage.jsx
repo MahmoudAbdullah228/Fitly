@@ -150,15 +150,15 @@ export default function ApplicationsPage() {
                   </div>
 
                   {/* Status Dropdown & Review Buttons */}
-                  <div className="flex items-center gap-3 shrink-0">
+                  <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 w-full sm:w-auto shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-hairline">
                     
                     {/* Status dropdown */}
-                    <div className="flex items-center gap-1.5">
+                    <div className="flex items-center gap-1.5 w-full sm:w-auto">
                       <span className="text-xs text-muted font-mono hidden sm:inline">Status:</span>
                       <select
                         value={app.status}
                         onChange={(e) => handleStatusChange(app.id, e.target.value)}
-                        className={`h-9 px-3 rounded-md text-xs font-semibold cursor-pointer border focus:outline-none transition-colors ${
+                        className={`h-9 w-full sm:w-auto px-3 rounded-md text-xs font-semibold cursor-pointer border focus:outline-none transition-colors ${
                           app.status === 'Offer'
                             ? 'bg-emerald-50 text-emerald-800 border-emerald-300'
                             : app.status === 'Interviewing'
@@ -179,6 +179,7 @@ export default function ApplicationsPage() {
                     <Button
                       size="sm"
                       variant="secondary"
+                      className="w-full sm:w-auto justify-center"
                       onClick={() => setInspectingApp(app)}
                     >
                       <FileText className="w-3.5 h-3.5 mr-1" />

@@ -47,10 +47,12 @@ export default function Navbar({ onOpenCheckout }) {
         
         {/* Brand Logo */}
         <div className="flex items-center gap-8">
-          <Link to="/" className="flex items-center gap-2 group">
-            <span className="w-7 h-7 rounded-md bg-primary flex items-center justify-center text-on-primary font-bold text-sm tracking-tight group-hover:bg-primary-active transition-colors">
-              F
-            </span>
+          <Link to="/" className="flex items-center gap-2.5 group">
+            <img
+              src="/assets/favicon.svg"
+              alt="Fitly Logo"
+              className="w-7 h-7 rounded-md shrink-0 transition-opacity group-hover:opacity-85"
+            />
             <span className="font-semibold text-lg tracking-tight text-ink">
               Fitly
             </span>

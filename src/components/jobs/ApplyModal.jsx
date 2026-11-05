@@ -274,11 +274,11 @@ export default function ApplyModal({
                 </div>
               </div>
 
-              <div className="pt-2 flex items-center justify-end gap-3 border-t border-hairline">
-                <Button variant="secondary" onClick={onClose}>
+              <div className="pt-2 flex flex-col-reverse sm:flex-row items-stretch sm:items-center justify-end gap-2.5 border-t border-hairline">
+                <Button variant="secondary" className="w-full sm:w-auto" onClick={onClose}>
                   Cancel
                 </Button>
-                <Button variant="primary" onClick={handleStartApply}>
+                <Button variant="primary" className="w-full sm:w-auto justify-center" onClick={handleStartApply}>
                   Generate Application (2 Credits)
                 </Button>
               </div>
@@ -564,12 +564,13 @@ export default function ApplyModal({
               <span>Simulate: View Original Posting on {job.source}</span>
             </button>
 
-            <div className="flex items-center gap-2 w-full sm:w-auto justify-end">
-              <Button variant="secondary" onClick={onClose}>
+            <div className="flex flex-col-reverse sm:flex-row items-stretch sm:items-center gap-2 w-full sm:w-auto justify-end">
+              <Button variant="secondary" className="w-full sm:w-auto" onClick={onClose}>
                 Close
               </Button>
               <Button
                 variant="primary"
+                className="w-full sm:w-auto justify-center"
                 onClick={handleMarkAsApplied}
                 disabled={isSubmittingApp}
               >

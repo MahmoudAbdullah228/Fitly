@@ -16,7 +16,7 @@ export default function Card({
   onClick,
   ...props
 }) {
-  const baseStyles = 'rounded-lg transition-all duration-200 overflow-hidden';
+  const baseStyles = 'rounded-lg transition-all duration-200';
 
   const variantStyles = {
     default: 'bg-surface-card text-ink border border-hairline-strong',

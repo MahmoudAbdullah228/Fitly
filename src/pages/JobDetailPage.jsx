@@ -145,12 +145,12 @@ export default function JobDetailPage() {
           </div>
 
           {/* Action buttons header */}
-          <div className="pt-4 border-t border-hairline flex flex-wrap items-center justify-between gap-4">
-            <div className="flex items-center gap-2">
+          <div className="pt-4 border-t border-hairline flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div className="flex items-center gap-2 w-full sm:w-auto">
               <button
                 type="button"
                 onClick={() => toggleSaveJob(jobWithMatch.id)}
-                className={`flex items-center gap-1.5 px-3 py-2 rounded-md border text-xs font-medium transition-colors ${
+                className={`flex-1 sm:flex-initial flex items-center justify-center gap-1.5 px-3 py-2 rounded-md border text-xs font-medium transition-colors ${
                   isSaved
                     ? 'bg-ink text-white border-ink'
                     : 'bg-white text-ink border-hairline-strong hover:bg-canvas-soft'
@@ -163,14 +163,14 @@ export default function JobDetailPage() {
               <button
                 type="button"
                 onClick={handleShare}
-                className="flex items-center gap-1.5 px-3 py-2 rounded-md border border-hairline-strong bg-white text-xs font-medium text-ink hover:bg-canvas-soft transition-colors"
+                className="flex-1 sm:flex-initial flex items-center justify-center gap-1.5 px-3 py-2 rounded-md border border-hairline-strong bg-white text-xs font-medium text-ink hover:bg-canvas-soft transition-colors"
               >
                 <Share2 className="w-3.5 h-3.5 text-muted" />
                 <span>Share</span>
               </button>
             </div>
 
-            <div className="flex items-center gap-3">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full sm:w-auto">
               <div className="text-right hidden sm:block">
                 <span className="text-xs font-mono font-bold text-ink block">Cost: 2 Credits</span>
                 <span className="text-[11px] text-muted block">Balance: {credits} credits</span>
@@ -178,6 +178,7 @@ export default function JobDetailPage() {
               <Button
                 variant="primary"
                 size="md"
+                className="w-full sm:w-auto justify-center"
                 onClick={() => setApplyModalOpen(true)}
               >
                 <Sparkles className="w-4 h-4 mr-1.5 fill-white stroke-none" />

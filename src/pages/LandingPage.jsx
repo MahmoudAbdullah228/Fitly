@@ -128,16 +128,8 @@ export default function LandingPage() {
     <div className="w-full flex flex-col">
       
       {/* 1. SIGNATURE HERO BAND WITH SKY-BLUE GRADIENT WASH (Gradient ONLY appears here!) */}
-      <section className="relative w-full pt-16 sm:pt-20 pb-20 md:pb-28 overflow-hidden bg-gradient-to-b from-[#cfe7ff]/40 via-[#a8c8e8]/20 to-canvas">
-        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 text-center space-y-6">
-          
-          {/* Eyebrow badge */}
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-card border border-hairline-strong shadow-xs">
-            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-            <span className="text-xs font-semibold uppercase tracking-wider text-ink">
-              AI Job-Matching Platform for Egypt & MENA
-            </span>
-          </div>
+      <section className="relative w-full pt-16 sm:pt-20 pb-20 md:pb-28 overflow-hidden bg-linear-to-b from-[#cfe7ff]/40 via-[#a8c8e8]/20 to-canvas">
+        <div className="max-w-300 mx-auto px-4 sm:px-6 text-center space-y-6">
 
           {/* Main Headline (Display Mega per DESIGN.md: 64px 600 weight -1.92px tracking) */}
           <h1 className="text-4xl sm:text-5xl md:text-[64px] font-semibold tracking-[-1.92px] text-ink leading-[1.08] max-w-4xl mx-auto">
@@ -151,14 +143,14 @@ export default function LandingPage() {
 
           {/* Primary CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
-            <Link to="/start">
-              <Button size="lg" variant="primary" className="w-full sm:w-auto">
+            <Link to="/start" className="w-full sm:w-auto">
+              <Button size="lg" variant="primary" className="w-full sm:w-auto justify-center">
                 <span>Get Started (4 Free Credits)</span>
                 <ArrowRight className="w-4 h-4 ml-1" />
               </Button>
             </Link>
-            <Link to="/matches">
-              <Button size="lg" variant="secondary" className="w-full sm:w-auto">
+            <Link to="/matches" className="w-full sm:w-auto">
+              <Button size="lg" variant="secondary" className="w-full sm:w-auto justify-center">
                 Explore Demo Matches
               </Button>
             </Link>
@@ -261,9 +253,43 @@ export default function LandingPage() {
             </p>
           </div>
 
-          {/* Comparison Table Container */}
-          <div className="overflow-x-auto rounded-xl border border-hairline-strong shadow-xs">
-            <table className="w-full text-left border-collapse text-sm">
+          {/* Mobile Comparison Cards (<md) */}
+          <div className="md:hidden space-y-4">
+            {comparisonRows.map((row, i) => (
+              <div
+                key={i}
+                className="p-4 rounded-xl border border-hairline-strong bg-surface-card space-y-3 shadow-xs"
+              >
+                <div className="font-semibold text-sm text-ink pb-2 border-b border-hairline">
+                  {row.criterion}
+                </div>
+                <div className="space-y-2 text-xs">
+                  <div className="p-3 rounded-lg bg-red-50/60 border border-red-200/60 text-red-950 flex items-start gap-2.5">
+                    <XCircle className="w-4 h-4 text-red-500 shrink-0 mt-0.5" />
+                    <div>
+                      <span className="block font-semibold uppercase tracking-wider text-[10px] text-red-800 mb-0.5">
+                        Traditional Blind Applying
+                      </span>
+                      <span className="leading-relaxed">{row.blind}</span>
+                    </div>
+                  </div>
+                  <div className="p-3 rounded-lg bg-emerald-50/80 border border-emerald-200/80 text-emerald-950 flex items-start gap-2.5">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                    <div>
+                      <span className="block font-semibold uppercase tracking-wider text-[10px] text-emerald-800 mb-0.5">
+                        Fitly AI Matcher
+                      </span>
+                      <span className="font-medium leading-relaxed">{row.fitly}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Desktop Comparison Table (md:block) */}
+          <div className="hidden md:block overflow-x-auto rounded-xl border border-hairline-strong shadow-xs">
+            <table className="w-full text-left border-collapse text-sm min-w-[620px]">
               <thead>
                 <tr className="bg-canvas-soft border-b border-hairline-strong">
                   <th className="p-4 sm:p-5 font-semibold text-xs uppercase tracking-wider text-body-strong w-1/3">
@@ -339,14 +365,14 @@ export default function LandingPage() {
               </div>
               <Link to="/start" className="pt-4">
                 <Button variant="secondary" className="w-full">
-                  Try Demo Profile
+                  Create Your Profile
                 </Button>
               </Link>
             </Card>
 
             {/* Popular Credit Pack */}
-            <Card className="p-6 bg-surface-card border-2 border-black flex flex-col justify-between space-y-4 relative shadow-md">
-              <span className="absolute -top-3 right-6 px-2.5 py-0.5 rounded-full bg-black text-white text-[10px] font-bold uppercase tracking-wider">
+            <Card className="p-6 bg-surface-card border-2 border-black flex flex-col justify-between space-y-4 relative overflow-visible shadow-md">
+              <span className="absolute -top-3.5 right-6 z-20 px-3 py-1 rounded-full bg-black text-white text-[10px] font-bold uppercase tracking-wider shadow-sm">
                 Best Value Pack
               </span>
               <div className="space-y-3">
@@ -428,11 +454,11 @@ export default function LandingPage() {
             Ready to find roles where you actually fit?
           </h2>
           <p className="text-base text-body leading-relaxed">
-            Upload your CV or test with a sample profile in under 60 seconds. See your Top 10 ranked job matches immediately.
+            Upload your CV or build your candidate profile in under 60 seconds. See your Top 10 ranked job matches immediately.
           </p>
           <div className="pt-2">
-            <Link to="/start">
-              <Button size="lg" variant="primary">
+            <Link to="/start" className="inline-block w-full sm:w-auto">
+              <Button size="lg" variant="primary" className="w-full sm:w-auto justify-center">
                 <span>Start Demo with 4 Free Credits</span>
                 <ArrowRight className="w-4 h-4 ml-1.5" />
               </Button>

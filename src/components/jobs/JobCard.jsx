@@ -130,15 +130,15 @@ export default function JobCard({
       </div>
 
       {/* Card Footer: Posted date & Details link */}
-      <div className="pt-4 mt-4 border-t border-hairline flex items-center justify-between text-xs text-muted">
+      <div className="pt-3 mt-3 border-t border-hairline flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs text-muted">
         <span className="flex items-center gap-1 font-mono">
           <Clock className="w-3.5 h-3.5" />
           {job.postedDaysAgo === 0 ? 'Today' : `${job.postedDaysAgo}d ago`}
         </span>
 
-        <div className="flex items-center gap-2">
-          <Link to={`/jobs/${job.id}`}>
-            <Button size="sm" variant="secondary">
+        <div className="flex items-center gap-2 w-full sm:w-auto">
+          <Link to={`/jobs/${job.id}`} className="flex-1 sm:flex-initial">
+            <Button size="sm" variant="secondary" className="w-full sm:w-auto justify-center">
               View Fit & Analysis
             </Button>
           </Link>
@@ -146,6 +146,7 @@ export default function JobCard({
             <Button
               size="sm"
               variant="primary"
+              className="flex-1 sm:flex-initial justify-center"
               onClick={() => onApplyClick(job)}
             >
               Apply (2cr)

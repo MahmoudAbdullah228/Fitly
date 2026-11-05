@@ -25,9 +25,7 @@ export default function Footer() {
           {/* Col 1: Brand & Tagline */}
           <div className="col-span-2">
             <div className="flex items-center gap-2 mb-3">
-              <span className="w-6 h-6 rounded bg-primary flex items-center justify-center text-on-primary font-bold text-xs">
-                F
-              </span>
+              <img src="/assets/favicon.svg" alt="Fitly Logo" className="w-6 h-6 rounded shrink-0" />
               <span className="font-semibold text-base tracking-tight text-ink">
                 Fitly
               </span>
@@ -36,7 +34,6 @@ export default function Footer() {
               Apply where you fit. AI-powered job matching platform built for Egypt and MENA candidates.
             </p>
             <div className="flex items-center gap-2 text-xs text-muted font-mono">
-              <span className="inline-block w-2 h-2 rounded-full bg-emerald-500" />
               <span>Frontend Prototype v1.0 • Cairo, Egypt</span>
             </div>
           </div>
@@ -151,11 +148,11 @@ export default function Footer() {
           <p className="text-sm text-body">
             Use this action between demo presentations to test the fresh user flow from scratch.
           </p>
-          <div className="flex items-center justify-end gap-3 pt-3 border-t border-hairline">
-            <Button variant="secondary" onClick={() => setShowResetModal(false)}>
+          <div className="flex flex-col-reverse sm:flex-row items-stretch sm:items-center justify-end gap-2.5 pt-3 border-t border-hairline">
+            <Button variant="secondary" className="w-full sm:w-auto" onClick={() => setShowResetModal(false)}>
               Cancel
             </Button>
-            <Button variant="danger" onClick={handleConfirmReset}>
+            <Button variant="danger" className="w-full sm:w-auto justify-center" onClick={handleConfirmReset}>
               Yes, Reset Everything
             </Button>
           </div>

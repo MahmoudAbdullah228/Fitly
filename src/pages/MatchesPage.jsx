@@ -155,17 +155,17 @@ export default function MatchesPage() {
             </p>
           </div>
 
-          {/* Active candidate profile quick switcher */}
-          <div className="flex items-center gap-3">
-            <Link to="/profile">
-              <Button size="sm" variant="secondary">
+          {/* Candidate profile actions */}
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 w-full sm:w-auto">
+            <Link to="/profile" className="w-full sm:w-auto">
+              <Button size="sm" variant="secondary" className="w-full sm:w-auto justify-center">
                 <UserCheck className="w-3.5 h-3.5 mr-1 text-muted" />
                 <span>Edit Profile Skills</span>
               </Button>
             </Link>
-            <Link to="/start">
-              <Button size="sm" variant="ghost">
-                Switch Candidate
+            <Link to="/start" className="w-full sm:w-auto">
+              <Button size="sm" variant="ghost" className="w-full sm:w-auto justify-center">
+                Upload New CV
               </Button>
             </Link>
           </div>

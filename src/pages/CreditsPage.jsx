@@ -93,13 +93,13 @@ export default function CreditsPage() {
               return (
                 <Card
                   key={pack.id}
-                  className={`p-6 bg-surface-card flex flex-col justify-between space-y-5 relative transition-all duration-200 ${
+                  className={`p-6 bg-surface-card flex flex-col justify-between space-y-5 relative overflow-visible transition-all duration-200 ${
                     isPopular ? 'border-2 border-black shadow-md' : 'border border-hairline-strong'
                   }`}
                 >
                   {isPopular && (
-                    <span className="absolute -top-3 right-6 px-3 py-0.5 rounded-full bg-black text-white text-[10px] font-bold uppercase tracking-wider">
-                      {pack.badge || 'Most Popular'}
+                    <span className="absolute -top-3.5 right-6 z-20 px-3 py-1 rounded-full bg-black text-white text-[10px] font-bold uppercase tracking-wider shadow-sm">
+                      {pack.badge || 'Best Value Pack'}
                     </span>
                   )}
 
@@ -197,14 +197,14 @@ export default function CreditsPage() {
                 <Card
                   key={plan.id}
                   variant={isFeatured ? 'dark' : 'default'}
-                  className={`p-6 sm:p-8 flex flex-col justify-between space-y-6 relative transition-all duration-200 ${
+                  className={`p-6 sm:p-8 flex flex-col justify-between space-y-6 relative overflow-visible transition-all duration-200 ${
                     isFeatured
                       ? 'bg-surface-dark text-on-dark border border-surface-dark-elevated shadow-xl'
                       : 'bg-surface-card text-ink border border-hairline-strong'
                   }`}
                 >
                   {isFeatured && (
-                    <span className="absolute -top-3 right-6 px-3 py-0.5 rounded-full bg-emerald-500 text-white text-[10px] font-bold uppercase tracking-wider">
+                    <span className="absolute -top-3.5 right-6 z-20 px-3 py-1 rounded-full bg-emerald-500 text-white text-[10px] font-bold uppercase tracking-wider shadow-sm">
                       {plan.badge || 'Most Popular'}
                     </span>
                   )}
@@ -276,7 +276,40 @@ export default function CreditsPage() {
             </div>
           </div>
 
-          <div className="overflow-x-auto rounded-xl border border-hairline-strong shadow-xs">
+          {/* Mobile Usage Cards (<sm) */}
+          <div className="sm:hidden space-y-2.5">
+            {usageHistory.map((tx) => {
+              const isCredit = tx.type === 'credit' || tx.amount > 0;
+              return (
+                <div
+                  key={tx.id}
+                  className="p-3.5 rounded-lg border border-hairline bg-surface-card space-y-2"
+                >
+                  <div className="flex items-start justify-between gap-2">
+                    <span className="font-medium text-xs text-ink leading-snug">
+                      {tx.description}
+                    </span>
+                    <span
+                      className={`font-mono text-xs font-bold shrink-0 ${
+                        isCredit ? 'text-emerald-600' : 'text-ink'
+                      }`}
+                    >
+                      {isCredit ? `+${tx.amount}` : tx.amount}
+                    </span>
+                  </div>
+                  <div className="flex items-center justify-between text-[11px] font-mono text-muted pt-1.5 border-t border-hairline">
+                    <span>{tx.timestamp}</span>
+                    <span>
+                      Balance: <strong className="text-ink">{tx.balanceAfter} credits</strong>
+                    </span>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Desktop Table (sm:block) */}
+          <div className="hidden sm:block overflow-x-auto rounded-xl border border-hairline-strong shadow-xs">
             <table className="w-full text-left border-collapse text-xs">
               <thead>
                 <tr className="bg-canvas-soft border-b border-hairline-strong text-muted uppercase font-mono tracking-wider">

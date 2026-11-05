@@ -39,7 +39,6 @@ export default function HeroDeviceMockup() {
                   <Badge variant="success" size="sm">Active Profile</Badge>
                 </div>
                 <div className="flex items-center gap-1.5 text-[11px] font-mono text-body">
-                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
                   <span>10 Ranked Matches</span>
                 </div>
               </div>

@@ -8,7 +8,6 @@ import Badge from '../components/ui/Badge.jsx';
 import { useAppState } from '../hooks/useAppState.js';
 import { useToast } from '../components/ui/Toast.jsx';
 import { parseCvOrUrl } from '../services/aiService.js';
-import demoCandidates from '../data/candidates.json' with { type: 'json' };
 import skillsTaxonomy from '../data/skills.json' with { type: 'json' };
 import { 
   UploadCloud, 
@@ -32,7 +31,7 @@ export default function OnboardingPage() {
   const { showToast } = useToast();
 
   const [wizardStep, setWizardStep] = useState(1); // 1: Path Selection, 2: Simulated Extraction, 3: Profile Review
-  const [selectedPath, setSelectedPath] = useState('sample'); // 'upload' | 'manual' | 'sample'
+  const [selectedPath, setSelectedPath] = useState('upload'); // 'upload' | 'manual'
 
   // Path A state: File & LinkedIn
   const [uploadedFile, setUploadedFile] = useState(null);
@@ -43,9 +42,6 @@ export default function OnboardingPage() {
   const [manualHeadline, setManualHeadline] = useState('');
   const [manualBio, setManualBio] = useState('');
   const [manualSkills, setManualSkills] = useState([]);
-
-  // Path C state: Selected sample profile
-  const [selectedSampleId, setSelectedSampleId] = useState('c1'); // default Omar Tarek
 
   // Step 2 extraction state
   const [extractionState, setExtractionState] = useState({
@@ -71,9 +67,7 @@ export default function OnboardingPage() {
 
     let chosenCandidate = null;
 
-    if (selectedPath === 'sample') {
-      chosenCandidate = demoCandidates.find((c) => c.id === selectedSampleId) || demoCandidates[0];
-    } else if (selectedPath === 'manual') {
+    if (selectedPath === 'manual') {
       chosenCandidate = {
         id: `manual-${Date.now()}`,
         name: manualName.trim() || 'Candidate',
@@ -170,16 +164,13 @@ export default function OnboardingPage() {
         
         {/* Step indicator header */}
         <div className="text-center space-y-2">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-strong text-ink font-mono text-xs font-semibold uppercase tracking-wider">
-            Step {wizardStep} of 3
-          </div>
           <h1 className="text-2xl sm:text-3xl font-semibold tracking-tight text-ink">
             {wizardStep === 1 && 'Choose How to Provide Your Background'}
             {wizardStep === 2 && 'AI Extracting Skills & Experience'}
             {wizardStep === 3 && 'Review & Customize Your Profile'}
           </h1>
           <p className="text-sm text-body max-w-lg mx-auto">
-            {wizardStep === 1 && 'Fitly adapts to your existing resume, or lets you explore instantly with pre-built candidate profiles.'}
+            {wizardStep === 1 && 'Fitly adapts to your existing resume, or lets you build your candidate profile manually in minutes.'}
             {wizardStep === 2 && 'Our mock AI parser simulates document text extraction and skills taxonomy mapping.'}
             {wizardStep === 3 && 'Make sure your extracted details look right. You can add skills or edit any field before matching.'}
           </p>
@@ -190,18 +181,7 @@ export default function OnboardingPage() {
           <div className="space-y-6">
             
             {/* Path Selector Tabs */}
-            <div className="grid grid-cols-3 gap-2 p-1.5 rounded-lg bg-surface-strong border border-hairline">
-              <button
-                type="button"
-                onClick={() => setSelectedPath('sample')}
-                className={`py-2 px-3 rounded-md text-xs font-semibold transition-all ${
-                  selectedPath === 'sample'
-                    ? 'bg-primary text-on-primary shadow-xs'
-                    : 'text-body hover:text-ink'
-                }`}
-              >
-                Sample Profile (Demo)
-              </button>
+            <div className="grid grid-cols-2 gap-2 p-1.5 rounded-lg bg-surface-strong border border-hairline">
               <button
                 type="button"
                 onClick={() => setSelectedPath('upload')}
@@ -226,74 +206,7 @@ export default function OnboardingPage() {
               </button>
             </div>
 
-            {/* PATH OPTION A: SAMPLE PROFILE PICKER (Ideal for Demo) */}
-            {selectedPath === 'sample' && (
-              <div className="space-y-4 animate-in fade-in duration-200">
-                <div className="p-3.5 rounded-lg bg-emerald-50 border border-emerald-200 text-xs text-emerald-900 flex items-center gap-2">
-                  <Sparkles className="w-4 h-4 text-emerald-600 shrink-0" />
-                  <span>
-                    <strong>Recommended for Professor Presentation:</strong> Pick one of 4 complete demo candidates to see real Egyptian market matching.
-                  </span>
-                </div>
-
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
-                  {demoCandidates.filter((c) => c.id !== 'blank').map((cand) => {
-                    const isSelected = selectedSampleId === cand.id;
-                    return (
-                      <Card
-                        key={cand.id}
-                        hover
-                        onClick={() => setSelectedSampleId(cand.id)}
-                        className={`p-4 transition-all cursor-pointer ${
-                          isSelected
-                            ? 'border-2 border-black bg-white shadow-sm ring-1 ring-black/10'
-                            : 'border border-hairline-strong bg-surface-card hover:bg-canvas-soft'
-                        }`}
-                      >
-                        <div className="flex items-start gap-3">
-                          <img
-                            src={cand.avatar}
-                            alt={cand.name}
-                            className="w-12 h-12 rounded-full border border-hairline object-cover shrink-0"
-                          />
-                          <div className="space-y-1 flex-1 min-w-0">
-                            <div className="flex items-center justify-between">
-                              <h3 className="font-semibold text-sm text-ink truncate">
-                                {cand.name}
-                              </h3>
-                              {isSelected && (
-                                <span className="w-4 h-4 rounded-full bg-black text-white flex items-center justify-center text-[10px]">
-                                  ✓
-                                </span>
-                              )}
-                            </div>
-                            <p className="text-xs text-body font-medium truncate">
-                              {cand.role}
-                            </p>
-                            <p className="text-[11px] text-muted font-mono">
-                              {cand.yearsExperience} yrs exp • {cand.location}
-                            </p>
-                          </div>
-                        </div>
-
-                        <div className="flex flex-wrap gap-1 pt-3 mt-3 border-t border-hairline">
-                          {cand.skills.slice(0, 3).map((s, idx) => (
-                            <span
-                              key={idx}
-                              className="text-[10px] px-2 py-0.5 rounded bg-surface-strong text-body-strong font-mono"
-                            >
-                              {s.name}
-                            </span>
-                          ))}
-                        </div>
-                      </Card>
-                    );
-                  })}
-                </div>
-              </div>
-            )}
-
-            {/* PATH OPTION B: UPLOAD CV OR LINKEDIN */}
+            {/* PATH OPTION A: UPLOAD CV OR LINKEDIN */}
             {selectedPath === 'upload' && (
               <div className="space-y-5 animate-in fade-in duration-200">
                 {/* Drag and Drop Zone */}
@@ -410,13 +323,14 @@ export default function OnboardingPage() {
             )}
 
             {/* Bottom Proceed CTA */}
-            <div className="pt-4 border-t border-hairline flex items-center justify-between">
-              <span className="text-xs text-muted font-mono">
+            <div className="pt-4 border-t border-hairline flex flex-col-reverse sm:flex-row items-stretch sm:items-center justify-between gap-3">
+              <span className="text-xs text-muted font-mono text-center sm:text-left">
                 Simulated AI Parsing • Zero server uploads
               </span>
               <Button
                 variant="primary"
                 size="md"
+                className="w-full sm:w-auto justify-center"
                 onClick={handleProceedToExtraction}
               >
                 <span>Extract & Continue</span>
@@ -566,9 +480,10 @@ export default function OnboardingPage() {
             </Card>
 
             {/* Bottom Actions */}
-            <div className="flex items-center justify-between pt-2">
+            <div className="flex flex-col-reverse sm:flex-row items-stretch sm:items-center justify-between gap-3 pt-2">
               <Button
                 variant="secondary"
+                className="w-full sm:w-auto"
                 onClick={() => setWizardStep(1)}
               >
                 Back to Selection
@@ -576,6 +491,7 @@ export default function OnboardingPage() {
               <Button
                 variant="primary"
                 size="lg"
+                className="w-full sm:w-auto justify-center"
                 onClick={handleFinishOnboarding}
               >
                 <span>Save & View My Top 10 Matches</span>
